@@ -1,0 +1,869 @@
+/* 
+_________________________________________________________________
+
+                Loading
+__________________________________________________________________
+*/
+#loading {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  top: 0px;
+}
+#loading-center {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 70px;
+  width: 70px;
+  margin-top: -75px;
+  margin-left: -75px;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.object {
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  position: absolute;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-animation: animate 0.8s infinite;
+  animation: animate 0.8s infinite;
+}
+#object_one {
+  top: 19px;
+  left: 19px;
+}
+#object_two {
+  top: 0px;
+  left: 65px;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+#object_three {
+  top: 19px;
+  left: 111px;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+#object_four {
+  top: 65px;
+  left: 130px;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+#object_five {
+  top: 111px;
+  left: 111px;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+#object_six {
+  top: 130px;
+  left: 65px;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+#object_seven {
+  top: 111px;
+  left: 19px;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+#object_eight {
+  top: 65px;
+  left: 0px;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+@-webkit-keyframes animate {
+  25% {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  75% {
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+@keyframes animate {
+  50% {
+    -ms-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+/* 
+_________________________________________________________________
+
+              fim  Loading
+__________________________________________________________________
+*/
+.clearfix {
+  clear: both;
+}
+body.iframe {
+  color: #ffd599;
+  background: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+#principal {
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -500px;
+  box-shadow: 0px 20px 50px #000;
+  /* firefox */
+  -moz-box-shadow: 0px 20px 50px #000;
+  /* safari */
+  -webkit-box-shadow: 0px 20px 50px #000;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  outline: none;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.blue {
+  background-color: #3883d8;
+}
+.red {
+  background-color: #cf3535;
+}
+.orange {
+  background-color: #ea6300;
+}
+.full-screen {
+  height: 100%;
+  /* makes panels the entire window height */
+  position: relative;
+}
+.cont {
+  background: url(../img/bg-inicial.jpg) no-repeat;
+  background-attachment: fixed;
+}
+.ocultar {
+  display: none;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+/* 
+_________________________________________________________________
+
+                Página incial 
+__________________________________________________________________
+*/
+.img-bg,
+.img-bg1 {
+  position: absolute;
+  z-index: 1;
+}
+.img-bg1 {
+  z-index: 2;
+}
+.conteudo {
+  position: relative;
+  z-index: 5;
+}
+.box-inicial {
+  margin-left: 37px;
+}
+.box-inicial .icone-titulo {
+  margin: 28px 10px 0 0px;
+  float: left;
+}
+.box-inicial h1 {
+  color: #ffffff;
+  font-size: 41px;
+  width: 471px;
+  float: left;
+  font-weight: 400;
+}
+.box-inicial p {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 70px;
+}
+.box-inicial a {
+  color: #ffffff;
+}
+.box-inicial .bt-iniciar,
+.box-inicial .bt-creditos {
+  padding-left: 40px;
+  font-size: 25px;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  margin-top: 60px;
+  width: 10px;
+}
+.box-inicial .bt-iniciar {
+  background: url(../img/bts-iniciais.png) no-repeat;
+  background-position: 0 0;
+}
+.box-inicial .bt-creditos {
+  background: url(../img/bts-iniciais.png) no-repeat;
+  background-position: -50px 0;
+  line-height: 32px;
+  height: 34px;
+  margin-top: 105px;
+}
+.box-inicial .creditos {
+  list-style-type: none;
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  right: 71px;
+}
+.box-inicial .creditos li {
+  display: inline;
+  margin-right: 21px;
+}
+/*_____________________________________________________________________________________________________________________________
+
+                        MENU OCULTO
+
+/*_____________________________________________________________________________________________________________________________ */
+header {
+  position: absolute;
+  /*Panel will overlap  content */
+  /*position: relative;*/
+  /*Panel will "push" the content down */
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+header a.bt-menu,
+header a.bt-menu3,
+header a.bt-menu4 {
+  opacity: 0.3;
+  background: url(../img/bt-menu.png) no-repeat 0 0;
+  margin-top: -8px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: relative;
+  left: 48%;
+}
+header a.bt-menu:hover,
+header a.bt-menu3:hover,
+header a.bt-menu4:hover {
+  opacity: 0.7;
+}
+header a.ativo {
+  background-position: 0px -65px;
+}
+#panel,
+#panel3,
+#panel-clima {
+  height: 76px;
+  width: 100%;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+#panel ul,
+#panel3 ul,
+#panel-clima ul {
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0px;
+}
+#panel ul > li,
+#panel3 ul > li,
+#panel-clima ul > li {
+  float: left;
+  position: relative;
+  cursor: pointer;
+  width: 76.9px;
+  height: 74px;
+  background: #333333;
+}
+#panel ul > li a,
+#panel3 ul > li a,
+#panel-clima ul > li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#panel ul > li > ul,
+#panel3 ul > li > ul,
+#panel-clima ul > li > ul {
+  padding: 0px;
+  padding-top: 15px;
+  position: absolute;
+  z-index: 10;
+  top: 58px;
+  left: -90px;
+  width: 350px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+#panel ul > li > ul > li,
+#panel3 ul > li > ul > li,
+#panel-clima ul > li > ul > li {
+  text-align: center;
+  border-top: 1px solid white;
+  width: 140px;
+  line-height: 75px;
+  display: block;
+  color: #fff;
+  text-shadow: 1px -1px 10px #000000;
+}
+#panel ul > li > ul a,
+#panel3 ul > li > ul a,
+#panel-clima ul > li > ul a {
+  color: white;
+}
+#panel ul > li:nth-child(odd),
+#panel3 ul > li:nth-child(odd),
+#panel-clima ul > li:nth-child(odd) {
+  opacity: 0.7;
+}
+#panel ul > li:nth-child(even),
+#panel3 ul > li:nth-child(even),
+#panel-clima ul > li:nth-child(even) {
+  opacity: 0.9;
+}
+#panel ul > li:hover ul,
+#panel3 ul > li:hover ul,
+#panel-clima ul > li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+#panel ul li.formacao-universo,
+#panel3 ul li.formacao-universo,
+#panel-clima ul li.formacao-universo,
+#panel ul li.relevo,
+#panel3 ul li.relevo,
+#panel-clima ul li.relevo,
+#panel ul li.climatologia,
+#panel3 ul li.climatologia,
+#panel-clima ul li.climatologia,
+#panel ul li.cartografia,
+#panel3 ul li.cartografia,
+#panel-clima ul li.cartografia,
+#panel ul li.estudos,
+#panel3 ul li.estudos,
+#panel-clima ul li.estudos,
+#panel ul li.apresentacao,
+#panel3 ul li.apresentacao,
+#panel-clima ul li.apresentacao,
+#panel ul li.divisoria,
+#panel3 ul li.divisoria,
+#panel-clima ul li.divisoria {
+  background: url(../img/icone-menu-principal.png) no-repeat 0 0;
+}
+#panel ul li.relevo,
+#panel3 ul li.relevo,
+#panel-clima ul li.relevo {
+  background-position: -144px 0;
+}
+#panel ul li.climatologia,
+#panel3 ul li.climatologia,
+#panel-clima ul li.climatologia {
+  background-position: -292px 0;
+  margin-left: 70px;
+}
+#panel ul li.cartografia,
+#panel3 ul li.cartografia,
+#panel-clima ul li.cartografia {
+  background-position: -448px 0;
+  margin-left: 80px;
+}
+#panel ul li.estudos,
+#panel3 ul li.estudos,
+#panel-clima ul li.estudos {
+  background-position: -602px 0;
+  margin-left: 82px;
+}
+#panel ul li.divisoria,
+#panel3 ul li.divisoria,
+#panel-clima ul li.divisoria {
+  background-position: -686px 0;
+  opacity: 1;
+  margin-left: 12px;
+}
+#panel ul li.apresentacao,
+#panel3 ul li.apresentacao,
+#panel-clima ul li.apresentacao {
+  background-position: -800px 0;
+  margin-left: 42px;
+}
+#panel ul li.apresentacao a,
+#panel3 ul li.apresentacao a,
+#panel-clima ul li.apresentacao a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*_____________________________________________________________________________________________________________________________
+
+                        BODY CONTEUDO OCULTO
+
+/*_____________________________________________________________________________________________________________________________ */
+.icones-section-1 {
+  position: absolute;
+  top: 110px;
+  left: 3px;
+}
+.icones-section-1 a {
+  background: url(../img/icone-slide1.png) no-repeat;
+  width: 55px;
+  height: 51px;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  opacity: 0.4;
+}
+.icones-section-1 a:hover {
+  opacity: 1;
+}
+.icones-section-1 a.icone-formacao-universo {
+  background-position: 0 0;
+  left: 147px;
+  top: 45px;
+}
+.icones-section-1 a.icone-relevo {
+  background-position: -168px 0;
+  left: 437px;
+  top: 28px;
+}
+.icones-section-1 a.icone-clima {
+  background-position: -331px 0;
+  left: 847px;
+  top: 102px;
+}
+.icones-section-1 a.icone-cartografia {
+  background-position: -81px 0;
+  left: 141px;
+  top: 192px;
+}
+.icones-section-1 a.icone-estudo {
+  background-position: -249px 0;
+  left: 622px;
+  top: 48px;
+}
+.hidden-content,
+.hidden-content1,
+.hidden-content2 {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
+  position: relative;
+  width: 800px;
+  height: 450px;
+  margin: 20px auto;
+  color: white;
+  left: -9999px;
+  top: 90px;
+}
+.hidden-content .alert-close,
+.hidden-content1 .alert-close,
+.hidden-content2 .alert-close {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+  height: 22px;
+  line-height: 24px;
+  position: absolute;
+  right: 11px;
+  text-align: center;
+  top: 9px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  width: 22px;
+}
+.hidden-content .slider,
+.hidden-content1 .slider,
+.hidden-content2 .slider {
+  opacity: 1;
+  letter-spacing: 1px;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.hidden-content .slider #container,
+.hidden-content1 .slider #container,
+.hidden-content2 .slider #container {
+  width: 100%;
+  margin: 0;
+}
+.hidden-content #container,
+.hidden-content1 #container,
+.hidden-content2 #container {
+  width: 90%;
+  margin: auto;
+}
+.hidden-content #container h1,
+.hidden-content1 #container h1,
+.hidden-content2 #container h1 {
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-size: 21px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  padding-top: 20px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.hidden-content #container p,
+.hidden-content1 #container p,
+.hidden-content2 #container p {
+  padding: 0px 50px;
+  margin: auto;
+}
+.hidden-content #container ul,
+.hidden-content1 #container ul,
+.hidden-content2 #container ul {
+  color: white;
+  width: 100%;
+}
+.hidden-content #container ul li,
+.hidden-content1 #container ul li,
+.hidden-content2 #container ul li {
+  margin-bottom: 7px;
+  width: 90%;
+}
+.visible-content,
+.visible-content1,
+.visible-content2 {
+  left: 0px;
+}
+.visible-content1 {
+  top: -370px;
+}
+.visible-content2 {
+  top: -850px;
+}
+.slide {
+  margin: 0;
+  padding: 0;
+  border-top: solid 4px #422410;
+}
+.btn-slide {
+  text-align: center;
+  width: 144px;
+  height: 31px;
+  padding: 10px 10px 0 0;
+  margin: 0 auto;
+  display: block;
+  font: bold 120%/100% Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+/*_____________________________________________________________________________________________________________________________
+
+                TOOLTIP 1
+
+/*_____________________________________________________________________________________________________________________________ */
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tema-tooltipster {
+  border-radius: 5px;
+  max-width: 505px;
+  color: white;
+  border: 2px solid white;
+  text-shadow: 1px -1px 10px #000000;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.tema-tooltipster .tooltipster-content {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 8px 10px;
+  overflow: hidden;
+  max-width: 505px;
+}
+/*_____________________________________________________________________________________________________________________________
+
+                TOOLTIP 2
+
+/*_____________________________________________________________________________________________________________________________ */
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tema2 {
+  border-radius: 5px;
+  max-width: 505px;
+  color: white;
+  border: 1px solid white;
+  text-shadow: 1px -1px 10px #000000;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.tema2 .tooltipster-content {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 10px;
+  overflow: hidden;
+  max-width: 505px;
+}
+/*_____________________________________________________________________________________________________________________________
+
+               FORMACÃO DO UNIVERSO
+/*_____________________________________________________________________________________________________________________________*/
+.video-aux {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 100000;
+}
+#section-2 {
+  background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
+  background-attachment: fixed;
+}
+#section-2 #panel3 {
+  /*background: url(../img/bg-menu1.jpg) no-repeat;*/
+}
+#section-2 #panel3 ul > li {
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  transition: height 0.2s;
+}
+#section-2 #panel3 ul > li:hover {
+  height: 90px;
+}
+#section-2 #panel3 .galaxia,
+#section-2 #panel3 .sistema,
+#section-2 #panel3 .estrela,
+#section-2 #panel3 .planeta,
+#section-2 #panel3 .asteroide,
+#section-2 #panel3 .satelite-natural,
+#section-2 #panel3 .satelite-eclipse,
+#section-2 #panel3 .big-bang,
+#section-2 #panel3 .musica,
+#section-2 #panel3 .labirinto,
+#section-2 #panel3 .palavras-cruzadas,
+#section-2 #panel3 .charge,
+#section-2 #panel3 .planeta-terra {
+  background: #333333 url(../img/icones-surgimento-universo.png) no-repeat 5px 10px;
+  width: 100%;
+  height: 100%;
+}
+#section-2 #panel3 .sistema {
+  background-position: -72px 10px;
+}
+#section-2 #panel3 .estrela {
+  background-position: -153px 10px;
+}
+#section-2 #panel3 .planeta {
+  background-position: -234px 10px;
+}
+#section-2 #panel3 .asteroide {
+  background-position: -315px 10px;
+}
+#section-2 #panel3 .satelite-natural {
+  background-position: -395px 10px;
+}
+#section-2 #panel3 .satelite-eclipse {
+  background-position: -475px 10px;
+}
+#section-2 #panel3 .big-bang {
+  background-position: -556px 10px;
+}
+#section-2 #panel3 .musica {
+  background-position: -639px 10px;
+}
+#section-2 #panel3 .labirinto {
+  background-position: -720px 10px;
+}
+#section-2 #panel3 .palavras-cruzadas {
+  background-position: -800px 10px;
+}
+#section-2 #panel3 .charge {
+  background-position: -885px 10px;
+}
+#section-2 #panel3 .planeta-terra {
+  background-position: -895px 10px;
+}
+#image-reel {
+  position: absolute;
+  background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
+  top: 0px;
+  height: 100%;
+  left: 0;
+  z-index: 1;
+}
+.reel-annotation {
+  white-space: nowrap;
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  background-attachment: fixed;
+  z-index: 1;
+}
+#waterfront {
+  font-size: 36px;
+  font-weight: bold;
+}
+#image-reel,
+.reel-panning * {
+  cursor: url('../img/cursor-custom.png'), default;
+}
+.top-titulo {
+  overflow: hidden;
+  max-height: 153px;
+  top: 10px;
+  left: 0px;
+  position: absolute;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+}
+.top-titulo h1 {
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+  padding: 10px 40px;
+  opacity: 1;
+}
+/*_____________________________________________________________________________________________________________________________
+
+               FORMACÃO DO UNIVERSO
+/*_____________________________________________________________________________________________________________________________*/
+#section-3 {
+  background: url(../img/bg-body-clima.jpg) no-repeat;
+  background-attachment: fixed;
+}
+#section-3 #panel-clima {
+  background: url(../img/bg-menu1.jpg) no-repeat;
+}
+#section-3 #panel-clima ul > li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 63px;
+  height: 53px;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+#section-3 #panel-clima ul a {
+  opacity: 0.5;
+}
+#section-3 #panel-clima ul a:hover {
+  opacity: 1;
+}
+#section-3 #panel-clima li.galaxia,
+#section-3 #panel-clima li.sistema,
+#section-3 #panel-clima li.estrela,
+#section-3 #panel-clima li.planeta,
+#section-3 #panel-clima li.asteroide,
+#section-3 #panel-clima li.satelite-natural,
+#section-3 #panel-clima li.satelite-eclipse,
+#section-3 #panel-clima li.big-bang,
+#section-3 #panel-clima li.musica,
+#section-3 #panel-clima li.labirinto,
+#section-3 #panel-clima li.palavras-cruzadas,
+#section-3 #panel-clima li.charge,
+#section-3 #panel-clima li.planeta-terra {
+  background: url(../img/icones-surgimento-universo.png) no-repeat 0 0;
+}
+#section-3 #panel-clima li.sistema {
+  background-position: -78px 0;
+}
+#section-3 #panel-clima li.estrela {
+  background-position: -166px 0;
+}
+#section-3 #panel-clima li.planeta {
+  background-position: -246px 0;
+}
+#section-3 #panel-clima li.asteroide {
+  background-position: -326px 0;
+}
+#section-3 #panel-clima li.satelite-natural {
+  background-position: -405px 0;
+}
+#section-3 #panel-clima li.satelite-eclipse {
+  background-position: -485px 0;
+}
+#section-3 #panel-clima li.big-bang {
+  background-position: -566px 0;
+}
+#section-3 #panel-clima li.musica {
+  background-position: -647px 0;
+}
+#section-3 #panel-clima li.labirinto {
+  background-position: -731px 0;
+}
+#section-3 #panel-clima li.palavras-cruzadas {
+  background-position: -7330px 0;
+}
+#section-3 #panel-clima li.charge {
+  background-position: -800px 0;
+}
+#section-3 #panel-clima li.planeta-terra {
+  background-position: -895px 0;
+}
+.box-modal p,
+.box-modal h1 {
+  color: white;
+}
+.box-modal h1 img {
+  margin-top: -7px;
+  margin-right: 20px;
+}
+.coluna {
+  width: 45%;
+  float: left;
+}
+.borda {
+  width: 1px;
+  margin: 0 25px;
+  float: left;
+  height: 324px;
+  background: white;
+}

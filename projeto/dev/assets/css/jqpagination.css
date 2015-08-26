@@ -1,0 +1,52 @@
+.pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 270px;
+  display: inline-block;
+}
+
+.pagination a {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 44px;
+  outline: none;
+
+    cursor: default; }
+
+.pagination a:first-child {
+  border: none;
+  border-radius: 2px 0 0 2px; }
+
+.pagination a:last-child {
+  border: none;
+  border-radius: 0 2px 2px 0; }
+
+.pagination input {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 20px;
+  background: black;
+  color: white;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+  text-align: center; }
+
+/* gigantic class for demo purposes */
+.gigantic.pagination {
+  margin: 0; }
+
+.gigantic.pagination a {
+  height: 60px;
+  width: 60px;
+  font-size: 50px;
+  line-height: 50px; }
+
+.gigantic.pagination input {
+  width: 160px;
+  height: 60px;
+  font-size: 30px; }
+
