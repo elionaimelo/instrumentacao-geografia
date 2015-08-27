@@ -20,13 +20,13 @@
 
         <!-- Animação em css -->
         <link rel="stylesheet" href="assets/css/animate.min.css">
-        
+
         <!-- hover em css -->
         <link href="assets/css/hover.css" rel="stylesheet" media="all">
-        
+
         <!-- fonte customizada -->
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-        
+
         <!-- css do tooltip -->
         <link rel="stylesheet" type="text/css" href="assets/css/tooltipster.css" />
 
@@ -38,19 +38,74 @@
         <!-- slide/pagination -->
         <link rel="stylesheet" type="text/css" href="assets/css/jqpagination.css"/>
 
+        <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/scripts.min.js"></script>
+        <script src="assets/js/jquery-ui.js"></script>
+
+        <!-- slide/pagination -->
+        <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/slick/slick.min.js"></script>
+
+        <!-- Animação no scroll -->
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+                <!-- efeitos no scroll -->
+        <script src="assets/js/scrollmagic-anchornav.js"></script>
+
+
+
+        <!-- tooltip -->
+        <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>
+
+        <!-- scroll image -->
+        <script src="assets/js/jquery.reel-min.js"></script>
+
+        <!-- scroll image -->
+        <link rel="stylesheet" href="assets/js/vendor/colorbox/colorbox.css" />
+        <script src="assets/js/vendor/colorbox/jquery.colorbox-min.js"></script>
+
+
+        <!-- videoBG -->
+        <script src="assets/js/jquery.videoBG.js"></script>
+
+        <!-- paginação -->
+        <script src="assets/js/jquery.jqpagination.js"></script>
+
+
+
 
 
 
     </head>
-    <body class="wow fadeIn"  data-wow-duration="2s" data-wow-delay="0.5s">
+    <body>
+
+      <div id="loading">
+        <div id="loading-center">
+        <div id="loading-center-absolute">
+        <div class="object" id="object_one"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_five"></div>
+        <div class="object" id="object_six"></div>
+        <div class="object" id="object_seven"></div>
+        <div class="object" id="object_eight"></div>
+
+        </div>
+        </div>
+
+      </div>
 
 
         <section class="full-screen" id="section-2">
 
            <!-- <div class="video-aux">
-              
+
             </div> -->
-         
+
         <header>
 
                 <div id="panel3">
@@ -61,13 +116,13 @@
                       <li class="tooltip" title="Galáxia">
                         <a class='inline' href="#inline_content">
                           <div class="galaxia">
-                            
+
                           </div>
                         </a>
 
                                 <!-- Conteudo da chamada galaxia -->
                                 <div style='display:none'>
-                                  <div id='inline_content' class="box-modal" style='padding:10px;'>
+                                  <div id='inline_content' class="box-modal">
 
                                     <h1>
                                       <img src="assets/img/titulo-assunto-galaxia.png" height="39" width="68" alt="">Galáxia
@@ -79,34 +134,65 @@
                                               <li>
                                                   <div class="coluna">
                                                     <p>As galáxias são formadas por inúmeros sistemas e/ou aglomerados estrelares que, por sua vez, são formados por estrelas em conjunto com objetos que estão ligados a elas pela força gravitacional. Existem milhares de galáxias formando o universo, e a Via Láctea é a que abriga o nosso Sistema Solar.</p>
+
+                                                      <div class="box-video">
+                                                          <video id="video1" class="video" preload="auto" controls
+                                                             preload="auto" poster="MY_VIDEO_POSTER.jpg">
+                                                             <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+                                                             <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+                                                             <p>Para visualiação atualize seu navegador</p>
+                                                          </video>
+
+                                                          <p class="legenda">Série Cosmos: Via Láctea. <br/>
+                                                          Fonte: TV Escola. Disponível em: &lt;<a href="http://www.youtube.com/watch?v=LL1qODSPYFU" target="_blank">http://www.youtube.com/watch?v=LL1qODSPYFU</a>&gt;. Acesso em: 15 jul. 2012.
+                                                          </p>
+                                                      </div>
                                                   </div>
 
 
                                                   <div class="borda">
-                                                    
+
                                                   </div>
-  
+
 
                                                   <div class="coluna">
-                                                    <p>As galáxias são formadas por inúmeros sistemas e/ou aglomerados estrelares que, por sua vez, são formados por estrelas em conjunto com objetos que estão ligados a elas pela força gravitacional. Existem milhares de galáxias formando o universo, e a Via Láctea é a que abriga o nosso Sistema Solar.</p>
+
+                                                      <figure>
+                                                        <img src="assets/img/galaxia1.jpg" alt="" />
+                                                        <figcaption>
+                                                          Imagem da nossa galáxia, a Via Láctea.<br/>
+                                                          Fonte:<a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_1455.html" target="_blank">http://www.nasa.gov/multimedia/imagegallery/image_feature_1455.html</a>&gt;. Acesso em: 29 ago. 2012.
+                                                        </figcaption>
+                                                      </figure>
+
                                                   </div>
-      
-                                                    
+
+
                                                 </li><!-- ./page -->
-                                                
+
                                                 <!-- page -->
                                                 <li>
-                                                  <p>ese a Via Láctea é a que abriga o nosso Sistema Solar.</p>
+                                                  <p>Os sistemas são constituídos por um pequeno grupo de estrelas – ou uma estrela isolada – ligados gravitacionalmente a outros objetos (não estrelares) como planetas, meteoros, asteroides etc. Portanto, um exemplo bem próximo à nossa realidade é o Sistema Solar, formado pelo Sol (uma estrela) e orbitado por oito planetas, dentre os quais a Terra, habitada pelos seres humanos.</p>
+                                                  <figure>
+                                                    <img src="assets/img/galaxia1.jpg" alt="" />
+                                                    <figcaption>
+                                                      Representação do Sistema Solar.<br/>
+                                                      Fonte: Learning By Grace. Disponível em: &lt;<a href="http://arautodofuturo.wordpress.com/astronomia/misterios-da-astrofisica/" target="_blank">http://arautodofuturo.wordpress.com/astronomia/misterios-da-astrofisica/</a>&gt;. Acesso em: 31 ago. 2013.
+                                                    </figcaption>
+                                                  </figure>
+
+                                                  <p>Indicação de site: &lt;<a href="http://www.solarsystemscope.com/" target="_blank">http://www.solarsystemscope.com/</a>&gt;</p>
+
                                                 </li><!-- ./page -->
-                                                
+
                                                 <!-- page -->
                                                 <li>
                                                   <p>As gxias formando o universo, e a Via Láctea é a que abriga o nosso Sistema Solar.</p>
                                                 </li><!-- ./page -->
-                                            
+
                                             </ul>
 
-                                     
+
                                       <div class="gigantic pagination">
                                           <a href="#" class="first" data-action="first">&laquo;</a>
                                           <a href="#" class="previous" data-action="previous">
@@ -119,7 +205,7 @@
                                           <a href="#" class="last" data-action="last">&raquo;</a>
                                       </div>
                                       <div class="clearfix"></div> <!-- should probably have a shower after that -->
-                                      
+
                                     </div>
 
                                   </div>
@@ -129,96 +215,96 @@
                       </li>
                       <li class="tooltip" title="Sistema">
                         <div class="sistema">
-                            
+
                         </div>
-                        
+
                       </li>
                       <li class="tooltip" title="Estrela">
                         <div class="estrela">
-                            
+
                         </div>
-                        
+
                       </li>
                       <li class="tooltip" title="Planeta">
                         <div class="planeta">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Asteróide/Meteoro/Cometa">
                         <div class="asteroide">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Satélite Natural">
                         <div class="satelite-natural">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Satélite com eclipse/aurora">
                         <div class="satelite-eclipse">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Big bang">
                         <div class="big-bang">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Música">
                         <div class="musica">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Labirinto">
                         <div class="labirinto">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Palavras Cruzadas">
                         <div class="palavras-cruzadas">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Charge">
                         <div class="charge">
-                            
+
                         </div>
 
                       </li>
 
                       <li class="tooltip" title="Planeta Terra">
                         <div class="planeta-terra">
-                            
+
                         </div>
 
                       </li>
-                      
+
 
                     </ul>
-                    
+
                 </div>
 
 
 
-               
+
                   <a href="#" class="bt-menu3">
-                    
+
                   </a>
          </header>
 
@@ -226,103 +312,11 @@
          <div class="top-titulo">
             <h1>Formação do Universo</h1>
          </div>
-                
-        
-         <div class="map-image">
-                    <img src="assets/img/bg-slide-formacao-universo.jpg"  width="1000" height="600"
-                  class="reel"
-                  id="image"
-                  data-image="assets/img/bg-slide-formacao-universo-teste.jpg"
-                  data-stitched="2000"
-                  data-steps="30"
-                  data-step="13"
-                  data-loops="false">
-
-                 <a href="pages/iframe.html"
-      class="reel-annotation iframe"
-      id="trackname1"
-      data-x="50"
-      data-y="95"
-      data-for="image">teste 1</a>
-
-      
 
 
-      <a href="assets/js/DSCN1350.jpg"
-      class="reel-annotation fancybox"
-      id="trackname2"
-      data-x="300"
-      data-y="95"
-      data-for="image">teste 2</a>
-
-
-      <a href="assets/js/DSCN1350.jpg"
-      class="reel-annotation fancybox"
-      id="trackname3"
-      data-x="700"
-      data-y="495"
-      data-for="image">teste 3</a>
-
-      <a href="assets/js/DSCN1350.jpg"
-      class="reel-annotation fancybox"
-      id="trackname5"
-      data-x="1190"
-      data-y="195"
-      data-for="image">AUHHAUHAUAUAUHAUH</a>
-
-
-      <a href="assets/js/DSCN1350.jpg"
-      class="reel-annotation fancybox"
-      id="trackname6"
-      data-x="1500"
-      data-y="75"
-      data-for="image">hehehehehehe</a>
-
-      <a href="assets/js/DSCN1350.jpg"
-      class="reel-annotation fancybox"
-      id="trackname7"
-      data-x="1900"
-      data-y="75"
-      data-for="image">hehehehehehe</a>
-         </div>
 
         </section>
 
-        <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="assets/js/scripts.min.js"></script>
-        <script src="assets/js/jquery-ui.js"></script>
-        
-        <!-- slide/pagination -->
-        <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/slick/slick.min.js"></script>
-        
-        <!-- Animação no scroll -->
-        <script src="assets/js/wow.min.js"></script>
-        <script>
-            new WOW().init();
-        </script>
-
-                <!-- efeitos no scroll -->
-        <script src="assets/js/scrollmagic-anchornav.js"></script>
-
-
-        
-        <!-- tooltip -->
-        <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>
-        
-        <!-- scroll image -->
-        <script src="assets/js/jquery.reel-min.js"></script>
-        
-        <!-- scroll image -->
-        <link rel="stylesheet" href="assets/js/vendor/colorbox/colorbox.css" />
-        <script src="assets/js/vendor/colorbox/jquery.colorbox-min.js"></script>
-
-
-        <!-- videoBG -->
-        <script src="assets/js/jquery.videoBG.js"></script>
-
-        <!-- paginação -->
-        <script src="assets/js/jquery.jqpagination.js"></script>
 
 
 

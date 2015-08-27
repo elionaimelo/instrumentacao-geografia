@@ -1,0 +1,324 @@
+
+.video-aux {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100000;
+}
+
+#section-2 {
+    background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
+    background-attachment: fixed;
+
+
+    #panel3 {
+
+        /*background: url(../img/bg-menu1.jpg) no-repeat;*/
+
+
+        ul {
+             > li {
+
+                    position: relative;
+                    cursor: pointer;
+                      -webkit-transition: height 0.2s;
+                    -moz-transition: height 0.2s;
+                    transition: height 0.2s;
+
+                     &:hover {
+
+                        height: 90px;
+                    }
+
+                }
+
+
+
+        }
+
+
+        .galaxia ,
+        .sistema ,
+        .estrela ,
+        .planeta ,
+        .asteroide,
+        .satelite-natural ,
+        .satelite-eclipse ,
+        .big-bang ,
+        .musica ,
+        .labirinto ,
+        .palavras-cruzadas ,
+        .charge ,
+        .planeta-terra
+        {
+                background:rgba(51, 51, 51, 1) url(../img/icones-surgimento-universo.png) no-repeat 5px 10px;
+                width: 100%;
+                height: 100%;
+
+        }
+
+        .sistema {
+                background-position: -72px 10px;
+        }
+
+        .estrela {
+                background-position: -153px 10px;
+        }
+
+        .planeta {
+                background-position: -234px 10px;
+        }
+
+        .asteroide {
+                background-position: -315px 10px;
+        }
+
+        .satelite-natural {
+                background-position: -395px 10px;
+        }
+
+        .satelite-eclipse {
+                background-position: -475px 10px;
+        }
+        .big-bang {
+                background-position: -556px 10px;
+        }
+        .musica {
+                background-position: -639px 10px;
+        }
+        .labirinto {
+                background-position: -720px 10px;
+        }
+        .palavras-cruzadas {
+                background-position: -800px 10px;
+        }
+        .charge {
+                background-position: -885px 10px;
+        }
+        .planeta-terra {
+                background-position: -895px 10px;
+        }
+    }
+}
+
+#image-reel {
+    position: absolute;
+    background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
+    top: 0px;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+}
+.reel-annotation {
+    white-space: nowrap;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: 1;
+}
+#waterfront {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#image-reel , .reel-panning * {
+    cursor: url('../img/cursor-custom.png'), default;
+}
+
+.top-titulo {
+    overflow: hidden;
+    max-height: 153px;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+
+    h1 {
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: white;
+        padding: 10px 40px;
+        opacity: 1;
+    }
+}
+
+
+#section-3 {
+    background: url(../img/bg-body-clima.jpg) no-repeat;
+    background-attachment: fixed;
+
+    #panel-clima {
+
+        background: url(../img/bg-menu1.jpg) no-repeat;
+
+        ul {
+             > li {
+                    display: inline-block;
+                    position: relative;
+                    cursor: pointer;
+                    width: 63px;
+                    height: 53px;
+
+                    margin-left: 11px;
+                    margin-top: 10px;
+                }
+
+                a {
+                    opacity: 0.5;
+
+                    &:hover {
+                        opacity:1;
+                    }
+                }
+
+
+        }
+
+
+        li.galaxia ,
+        li.sistema ,
+        li.estrela ,
+        li.planeta ,
+        li.asteroide,
+        li.satelite-natural ,
+        li.satelite-eclipse ,
+        li.big-bang ,
+        li.musica ,
+        li.labirinto ,
+        li.palavras-cruzadas ,
+        li.charge ,
+        li.planeta-terra
+        {
+                background: url(../img/icones-surgimento-universo.png) no-repeat 0 0;
+        }
+
+        li.sistema {
+                background-position: -78px 0;
+        }
+
+        li.estrela {
+                background-position: -166px 0;
+        }
+
+        li.planeta {
+                background-position: -246px 0;
+        }
+
+        li.asteroide {
+                background-position: -326px 0;
+        }
+
+        li.satelite-natural {
+                background-position: -405px 0;
+        }
+
+        li.satelite-eclipse {
+                background-position: -485px 0;
+        }
+        li.big-bang {
+                background-position: -566px 0;
+        }
+        li.musica {
+                background-position: -647px 0;
+        }
+        li.labirinto {
+                background-position: -731px 0;
+        }
+        li.palavras-cruzadas {
+                background-position: -7330px 0;
+        }
+        li.charge {
+                background-position: -800px 0;
+        }
+        li.planeta-terra {
+                background-position: -895px 0;
+        }
+    }
+}
+
+.box-modal {
+    p ,
+    h1
+    {
+        color: white;
+        margin: 0px;
+    }
+
+    #wrapper {
+      margin: 0px;
+    }
+
+    p {
+        margin: 15px 0px;
+    }
+
+    ul {
+      padding: 0px;
+      padding-left: 5px;
+      margin: 0px;
+    }
+
+    h1 {
+
+        img {
+            margin-top: -7px;
+            margin-right: 20px;
+        }
+    }
+
+
+
+    .video {
+      border: 4px solid white;
+    }
+
+    #video1 {
+      width:425px;
+      height:200px;
+    }
+
+    .legenda {
+      text-align: center;
+      font-size: 12px;
+
+      a {
+        color: @cor-link;
+      }
+    }
+
+    figure {
+      img {
+        .video;
+        margin: auto;
+        display: inherit;
+      }
+
+      figcaption {
+        color:white;
+        margin-top: 14px;
+        .legenda;
+      }
+
+    }
+
+
+
+}
+
+
+.coluna {
+    width: 47%;
+    float: left;
+    margin-right: 0px;
+}
+
+.borda {
+    width: 1px;
+    margin: 0 25px;
+    float: left;
+    height: 424px;
+    background: white;
+}

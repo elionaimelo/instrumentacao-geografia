@@ -1,0 +1,166 @@
+
+/*_____________________________________________________________________________________________________________________________
+
+                        MENU OCULTO
+
+/*_____________________________________________________________________________________________________________________________ */
+
+
+header {
+    position: absolute;   /*Panel will overlap  content */
+    /*position: relative;*/   /*Panel will "push" the content down */
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    a.bt-menu , a.bt-menu3 , a.bt-menu4 {
+        opacity: 0.3;
+        background: url(../img/bt-menu.png) no-repeat 0 0;
+        margin-top:-8px;
+        height: 50px;
+        width: 50px;
+        display: block;
+        position: relative;
+        left: 48%;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    a.ativo {
+        background-position: 0px -65px;
+    }
+}
+
+#panel ,
+#panel3,
+#panel-clima
+ {
+
+    height: 76px;
+    width: 100%;
+    display: none;
+    position: relative;
+    z-index: 2;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+        padding: 0px;
+
+
+        > li {
+            float: left;
+            position: relative;
+            cursor: pointer;
+            width: 76.9px;
+            height: 74px;
+            background: #333333;
+
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            > ul {
+                padding: 0px;
+              padding-top: 15px;
+              position: absolute;
+              z-index: 10;
+              top: 58px;
+              left: -90px;
+              width: 350px;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              box-shadow: none;
+              display: none;
+              opacity: 0;
+              visibility: hidden;
+              -webkit-transiton: opacity 0.2s;
+              -moz-transition: opacity 0.2s;
+              -ms-transition: opacity 0.2s;
+              -o-transition: opacity 0.2s;
+              -transition: opacity 0.2s;
+
+              > li {
+                  text-align: center;
+                  border-top: 1px solid white;
+                  width: 140px;
+                  line-height: 75px;
+                  display: block;
+                  color: #fff;
+                  text-shadow: 1px -1px 10px #000;
+                }
+
+                a {
+                    color: white;
+                }
+
+            }
+
+            &:nth-child(odd) {
+                opacity:0.7;
+            }
+
+            &:nth-child(even) {
+                opacity:0.9;
+            }
+
+
+
+            &:hover {
+
+                ul {
+                  display: block;
+                  opacity: 1;
+                  visibility: visible;
+                }
+            }
+        }
+
+        li.formacao-universo , li.relevo , li.climatologia , li.cartografia , li.estudos , li.apresentacao , li.divisoria {
+                background: url(../img/icone-menu-principal.png) no-repeat 0 0;
+        }
+
+        li.relevo {
+                background-position: -144px 0;
+        }
+
+        li.climatologia {
+                background-position: -292px 0;
+                margin-left: 70px;
+        }
+
+        li.cartografia {
+                background-position: -448px 0;
+                margin-left: 80px;
+        }
+
+        li.estudos {
+                background-position: -602px 0;
+                margin-left: 82px;
+        }
+
+        li.divisoria {
+                background-position: -686px 0;
+                opacity:1;
+                margin-left: 12px;
+        }
+
+        li.apresentacao {
+                background-position: -800px 0;
+                margin-left: 42px;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+        }
+    }
+
+}

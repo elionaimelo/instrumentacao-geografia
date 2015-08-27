@@ -1,0 +1,85 @@
+
+/*
+_________________________________________________________________
+
+                Página incial
+__________________________________________________________________
+*/
+
+.img-bg , .img-bg1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.img-bg1 {
+    z-index: 2;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 5;
+}
+
+.box-inicial {
+    margin-left: 37px;
+    .icone-titulo {
+        margin: 28px 10px 0 0px;
+        float: left;
+    }
+
+
+    h1 {
+        color: @cor-da-fonte;
+        font-size: 41px;
+        width: 471px;
+        float: left;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: @tamanho-da-fonte-pgInicial;
+        color: @cor-da-fonte;
+        margin-top: 70px;
+    }
+
+    a {
+        color: @cor-da-fonte;
+    }
+
+    .bt-iniciar , .bt-creditos {
+        padding-left: 40px;
+        font-size: @tamanho-da-fonte-pgInicial;
+        display: inline-block;
+        line-height: 30px;
+        height: 30px;
+        margin-top: 60px;
+        width: 10px;
+    }
+
+    .bt-iniciar {
+        background: url(../img/bts-iniciais.png) no-repeat;
+        background-position: 0 0;
+
+    }
+
+    .bt-creditos {
+        background: url(../img/bts-iniciais.png) no-repeat;
+        background-position: -50px 0;
+        line-height: 32px;
+        height: 34px;
+        margin-top: 105px;
+    }
+
+    .creditos {
+        list-style-type: none;
+        position: absolute;
+        display: inline-block;
+        bottom: -20px;
+        right: 71px;
+
+        li {
+            display: inline;
+            margin-right: 21px;
+        }
+    }
+}

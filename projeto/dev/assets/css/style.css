@@ -1,4 +1,4 @@
-/* 
+/*
 _________________________________________________________________
 
                 Loading
@@ -111,7 +111,7 @@ __________________________________________________________________
     transform: scale(1, 1);
   }
 }
-/* 
+/*
 _________________________________________________________________
 
               fim  Loading
@@ -179,10 +179,10 @@ body {
   -o-transition: all 1s;
   transition: all 1s;
 }
-/* 
+/*
 _________________________________________________________________
 
-                Página incial 
+                Página incial
 __________________________________________________________________
 */
 .img-bg,
@@ -650,10 +650,6 @@ header a.ativo {
   overflow: hidden;
   max-width: 505px;
 }
-/*_____________________________________________________________________________________________________________________________
-
-               FORMACÃO DO UNIVERSO
-/*_____________________________________________________________________________________________________________________________*/
 .video-aux {
   width: 100%;
   height: 100%;
@@ -771,10 +767,6 @@ header a.ativo {
   padding: 10px 40px;
   opacity: 1;
 }
-/*_____________________________________________________________________________________________________________________________
-
-               FORMACÃO DO UNIVERSO
-/*_____________________________________________________________________________________________________________________________*/
 #section-3 {
   background: url(../img/bg-body-clima.jpg) no-repeat;
   background-attachment: fixed;
@@ -851,19 +843,60 @@ header a.ativo {
 .box-modal p,
 .box-modal h1 {
   color: white;
+  margin: 0px;
+}
+.box-modal #wrapper {
+  margin: 0px;
+}
+.box-modal p {
+  margin: 15px 0px;
+}
+.box-modal ul {
+  padding: 0px;
+  padding-left: 5px;
+  margin: 0px;
 }
 .box-modal h1 img {
   margin-top: -7px;
   margin-right: 20px;
 }
+.box-modal .video {
+  border: 4px solid white;
+}
+.box-modal #video1 {
+  width: 425px;
+  height: 200px;
+}
+.box-modal .legenda {
+  text-align: center;
+  font-size: 12px;
+}
+.box-modal .legenda a {
+  color: #2ce6ca;
+}
+.box-modal figure img {
+  border: 4px solid white;
+  margin: auto;
+  display: inherit;
+}
+.box-modal figure figcaption {
+  color: white;
+  margin-top: 14px;
+  text-align: center;
+  font-size: 12px;
+}
+.box-modal figure figcaption a {
+  color: #2ce6ca;
+}
 .coluna {
-  width: 45%;
+  width: 47%;
   float: left;
+  margin-right: 0px;
 }
 .borda {
   width: 1px;
   margin: 0 25px;
   float: left;
-  height: 324px;
+  height: 424px;
   background: white;
 }
