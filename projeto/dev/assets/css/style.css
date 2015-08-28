@@ -858,6 +858,7 @@ header a.ativo {
   padding: 0px;
   padding-left: 5px;
   margin: 0px;
+  list-style-type: none;
 }
 .box-modal h1 img {
   margin-top: -7px;
@@ -903,13 +904,17 @@ header a.ativo {
   color: #3a956b;
 }
 .coluna {
-  width: 47%;
+  width: 48%;
   float: left;
+  margin-right: 20px;
+}
+.coluna:last-child {
   margin-right: 0px;
+  margin-left: 15px;
 }
 .borda {
   width: 1px;
-  margin: 0 25px;
+  margin: 0;
   float: left;
   height: 424px;
   background: white;
