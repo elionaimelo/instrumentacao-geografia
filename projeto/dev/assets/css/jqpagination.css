@@ -1,11 +1,15 @@
-.pagination {
+.pagination,
+.pagination1
+{
   position: absolute;
   bottom: 5px;
   left: 270px;
   display: inline-block;
 }
 
-.pagination a {
+.pagination a ,
+.pagination1 a
+{
   display: block;
   float: left;
   width: 36px;
@@ -14,15 +18,21 @@
 
     cursor: default; }
 
-.pagination a:first-child {
+.pagination a:first-child ,
+.pagination1 a:first-child
+{
   border: none;
   border-radius: 2px 0 0 2px; }
 
-.pagination a:last-child {
+.pagination a:last-child ,
+.pagination1 a:last-child
+ {
   border: none;
   border-radius: 0 2px 2px 0; }
 
-.pagination input {
+.pagination input ,
+.pagination1 input
+ {
   float: left;
   margin: 0;
   padding: 0;
@@ -35,18 +45,22 @@
   vertical-align: middle;
   text-align: center; }
 
-/* gigantic class for demo purposes */
-.gigantic.pagination {
+.gigantic.pagination ,
+.gigantic.pagination1
+ {
   margin: 0; }
 
-.gigantic.pagination a {
+.gigantic.pagination a ,
+.gigantic.pagination1 a
+{
   height: 60px;
   width: 60px;
   font-size: 50px;
   line-height: 50px; }
 
-.gigantic.pagination input {
+.gigantic.pagination input ,
+.gigantic.pagination1 input
+ {
   width: 160px;
   height: 60px;
   font-size: 30px; }
-

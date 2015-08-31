@@ -1000,6 +1000,10 @@ header a.ativo {
 #section-3 #panel-clima li.planeta-terra {
   background-position: -895px 0;
 }
+.box-modal {
+  /* css de estrlas */
+  /* css estrelas */
+}
 .box-modal p,
 .box-modal h1 {
   color: white;
@@ -1037,10 +1041,9 @@ header a.ativo {
 }
 .box-modal .video {
   border: 4px solid white;
-}
-.box-modal #video1 {
+  margin: auto;
+  display: block;
   width: 425px;
-  height: 200px;
 }
 .box-modal .legenda {
   text-align: center;
@@ -1048,9 +1051,13 @@ header a.ativo {
 }
 .box-modal .legenda a {
   color: #3a956b;
+  word-wrap: break-word;
 }
 .box-modal figure img {
   border: 4px solid white;
+  display: block;
+  width: 425px;
+  width: auto;
   margin: auto;
   display: inherit;
 }
@@ -1062,6 +1069,14 @@ header a.ativo {
 }
 .box-modal figure figcaption a {
   color: #3a956b;
+  word-wrap: break-word;
+}
+.box-modal #img3 {
+  float: left;
+  width: 415px;
+}
+.box-modal #video2 {
+  height: 230px;
 }
 .coluna {
   width: 48%;
