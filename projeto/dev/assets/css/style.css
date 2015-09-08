@@ -445,7 +445,114 @@ header a.bt-menu4:hover {
 header a.ativo {
   background-position: 0px -65px;
 }
-#panel,
+/*_____________________________________________________________________________________________________________________________
+
+                        MENU OCULTO
+
+/*_____________________________________________________________________________________________________________________________ */
+#panel {
+  background: url(../img/bg-menu.jpg) 0px 0px no-repeat;
+  height: 74px;
+  display: none;
+}
+#panel ul {
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0px;
+}
+#panel ul > li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 75px;
+  height: 74px;
+  opacity: 0.6;
+  margin-left: 59px;
+}
+#panel ul > li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#panel ul > li > ul {
+  padding: 0px;
+  padding-top: 15px;
+  position: absolute;
+  z-index: 10;
+  top: 58px;
+  left: -90px;
+  width: 350px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+#panel ul > li > ul > li {
+  text-align: center;
+  border-top: 1px solid white;
+  width: 140px;
+  line-height: 75px;
+  display: block;
+  color: #fff;
+  text-shadow: 1px -1px 10px #000000;
+}
+#panel ul > li > ul a {
+  color: white;
+}
+#panel ul > li:hover {
+  opacity: 1;
+}
+#panel ul > li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+#panel ul li.formacao-universo,
+#panel ul li.relevo,
+#panel ul li.climatologia,
+#panel ul li.cartografia,
+#panel ul li.estudos,
+#panel ul li.apresentacao,
+#panel ul li.divisoria {
+  background: url(../img/icone-menu-principal.png) no-repeat 0 0;
+}
+#panel ul li.relevo {
+  background-position: -144px 0;
+}
+#panel ul li.climatologia {
+  background-position: -292px 0;
+  margin-left: 70px;
+}
+#panel ul li.cartografia {
+  background-position: -448px 0;
+  margin-left: 80px;
+}
+#panel ul li.estudos {
+  background-position: -602px 0;
+  margin-left: 82px;
+}
+#panel ul li.divisoria {
+  background-position: -686px 0;
+  opacity: 1;
+  margin-left: 12px;
+}
+#panel ul li.apresentacao {
+  background-position: -800px 0;
+  margin-left: 42px;
+}
+#panel ul li.apresentacao a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 #panel3,
 #panel-clima {
   height: 76px;
@@ -454,7 +561,6 @@ header a.ativo {
   position: relative;
   z-index: 2;
 }
-#panel ul,
 #panel3 ul,
 #panel-clima ul {
   list-style: none;
@@ -462,7 +568,6 @@ header a.ativo {
   display: inline-block;
   padding: 0px;
 }
-#panel ul > li,
 #panel3 ul > li,
 #panel-clima ul > li {
   float: left;
@@ -472,14 +577,12 @@ header a.ativo {
   height: 74px;
   background: #333333;
 }
-#panel ul > li a,
 #panel3 ul > li a,
 #panel-clima ul > li a {
   display: block;
   width: 100%;
   height: 100%;
 }
-#panel ul > li > ul,
 #panel3 ul > li > ul,
 #panel-clima ul > li > ul {
   padding: 0px;
@@ -501,7 +604,6 @@ header a.ativo {
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
-#panel ul > li > ul > li,
 #panel3 ul > li > ul > li,
 #panel-clima ul > li > ul > li {
   text-align: center;
@@ -512,88 +614,70 @@ header a.ativo {
   color: #fff;
   text-shadow: 1px -1px 10px #000000;
 }
-#panel ul > li > ul a,
 #panel3 ul > li > ul a,
 #panel-clima ul > li > ul a {
   color: white;
 }
-#panel ul > li:nth-child(odd),
 #panel3 ul > li:nth-child(odd),
 #panel-clima ul > li:nth-child(odd) {
   opacity: 0.7;
 }
-#panel ul > li:nth-child(even),
 #panel3 ul > li:nth-child(even),
 #panel-clima ul > li:nth-child(even) {
   opacity: 0.9;
 }
-#panel ul > li:hover ul,
 #panel3 ul > li:hover ul,
 #panel-clima ul > li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
-#panel ul li.formacao-universo,
 #panel3 ul li.formacao-universo,
 #panel-clima ul li.formacao-universo,
-#panel ul li.relevo,
 #panel3 ul li.relevo,
 #panel-clima ul li.relevo,
-#panel ul li.climatologia,
 #panel3 ul li.climatologia,
 #panel-clima ul li.climatologia,
-#panel ul li.cartografia,
 #panel3 ul li.cartografia,
 #panel-clima ul li.cartografia,
-#panel ul li.estudos,
 #panel3 ul li.estudos,
 #panel-clima ul li.estudos,
-#panel ul li.apresentacao,
 #panel3 ul li.apresentacao,
 #panel-clima ul li.apresentacao,
-#panel ul li.divisoria,
 #panel3 ul li.divisoria,
 #panel-clima ul li.divisoria {
   background: url(../img/icone-menu-principal.png) no-repeat 0 0;
 }
-#panel ul li.relevo,
 #panel3 ul li.relevo,
 #panel-clima ul li.relevo {
   background-position: -144px 0;
 }
-#panel ul li.climatologia,
 #panel3 ul li.climatologia,
 #panel-clima ul li.climatologia {
   background-position: -292px 0;
   margin-left: 70px;
 }
-#panel ul li.cartografia,
 #panel3 ul li.cartografia,
 #panel-clima ul li.cartografia {
   background-position: -448px 0;
   margin-left: 80px;
 }
-#panel ul li.estudos,
 #panel3 ul li.estudos,
 #panel-clima ul li.estudos {
   background-position: -602px 0;
   margin-left: 82px;
 }
-#panel ul li.divisoria,
 #panel3 ul li.divisoria,
 #panel-clima ul li.divisoria {
   background-position: -686px 0;
   opacity: 1;
   margin-left: 12px;
 }
-#panel ul li.apresentacao,
 #panel3 ul li.apresentacao,
 #panel-clima ul li.apresentacao {
   background-position: -800px 0;
   margin-left: 42px;
 }
-#panel ul li.apresentacao a,
 #panel3 ul li.apresentacao a,
 #panel-clima ul li.apresentacao a {
   display: block;
