@@ -1,0 +1,60 @@
+<html !doctype>
+  <head>
+    <meta charset="utf-8">
+    <title>Crossword</title>
+    <link href="crossword.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script src="../js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="crossword.js"></script>
+    <script type="text/javascript">
+    //function in iframe2
+    window.onload = function() {
+      if(!window.location.hash) {
+          window.location = window.location + '#loaded';
+          window.location.reload();
+      }
+    }
+    </script>
+    <style media="screen">
+      p {
+        color: white;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>As palavras cruzadas servem como exercício de fixação/avaliação, podendo ser adaptada pelo professor conforme a turma e o conteúdo a ser trabalhado.
+      No modelo a seguir, clique em cada questão ou no espaço correspondente e digite as letras corretas para formar as palavras. A resposta certa será indicada pela cor verde, e a errada pela cor vermelha.
+    </p>
+    <div id="divTest"></div>
+    <script>
+        $(function () {
+            var grid = [ '@@@@@@ @@@@@@@@@@',
+                        '@@       @@ @@@@@',
+                        '@@@@@@ @@@@ @@@@@',
+                        '        @@@ @@@@@',
+                        '@@@@@@ @@@@ @@@@@',
+                        '@@@@@            ',
+                        '@@@@@@ @@@@@@@ @@',
+                        '@@@@@@   @@@@@ @@',
+                        '@@@@@@@@@@@@@@@@@',
+                        '@@@@@@@@@@@@@@@@@',
+                        '@@@@@@@@@@@@@@@@@'];
+            var acrossClues = ['Nome que se dá à grande explosão que deu origem ao Universo.%%BIGBANG',
+                                'A Via Láctea é a “nossa casa”, formada por diversos%%PLANETAS',
+                                'É o sistema formado por uma estrela e oito planetas, incluindo o planeta onde o ser humano habita.%%SISTEMASOLAR',
+                                'Oferece luz e calor para Terra, além de ser o centro do nosso sistema.%%SOL',
+                                'Oferece luz e calor para Terra, além de ser o centro do nosso sistema.%%SOL'];
+            var downClues = ['O Universo é formado por inúmeras...%%GALAXIAS',
+                                'É o nome do nosso planeta.%%TERRA',
+                                'É o satélite natural que orbita nosso planeta e pode ser visto todas as noites de nossas casas.%%LUA'];
+
+            $('#divTest').crossword({ gridMask: grid,
+                            acrossClues: acrossClues,
+                            downClues: downClues,
+                            cluesToRight: true,
+                            validateAnswer: 'clue' });
+        });
+    </script>
+  </body>
+</html>
