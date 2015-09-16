@@ -900,75 +900,107 @@ header a.ativo {
   position: relative;
   z-index: 100000;
 }
-#section-2 {
+#section-2,
+#section-3 {
   background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
   background-attachment: fixed;
 }
-#section-2 #panel3 {
+#section-2 #panel3,
+#section-3 #panel3 {
   /*background: url(../img/bg-menu1.jpg) no-repeat;*/
 }
-#section-2 #panel3 ul > li {
+#section-2 #panel3 ul > li,
+#section-3 #panel3 ul > li {
   position: relative;
   cursor: pointer;
   -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
   transition: height 0.2s;
 }
-#section-2 #panel3 ul > li:hover {
+#section-2 #panel3 ul > li:hover,
+#section-3 #panel3 ul > li:hover {
   height: 90px;
 }
 #section-2 #panel3 .galaxia,
+#section-3 #panel3 .galaxia,
 #section-2 #panel3 .sistema,
+#section-3 #panel3 .sistema,
 #section-2 #panel3 .estrela,
+#section-3 #panel3 .estrela,
 #section-2 #panel3 .planeta,
+#section-3 #panel3 .planeta,
 #section-2 #panel3 .asteroide,
+#section-3 #panel3 .asteroide,
 #section-2 #panel3 .satelite-natural,
+#section-3 #panel3 .satelite-natural,
 #section-2 #panel3 .satelite-eclipse,
+#section-3 #panel3 .satelite-eclipse,
 #section-2 #panel3 .big-bang,
+#section-3 #panel3 .big-bang,
 #section-2 #panel3 .musica,
+#section-3 #panel3 .musica,
 #section-2 #panel3 .labirinto,
+#section-3 #panel3 .labirinto,
 #section-2 #panel3 .palavras-cruzadas,
+#section-3 #panel3 .palavras-cruzadas,
 #section-2 #panel3 .charge,
-#section-2 #panel3 .planeta-terra {
+#section-3 #panel3 .charge,
+#section-2 #panel3 .planeta-terra,
+#section-3 #panel3 .planeta-terra {
   background: #333333 url(../img/icones-surgimento-universo.png) no-repeat 5px 10px;
   width: 100%;
   height: 100%;
 }
-#section-2 #panel3 .sistema {
+#section-2 #panel3 .sistema,
+#section-3 #panel3 .sistema {
   background-position: -72px 10px;
 }
-#section-2 #panel3 .estrela {
+#section-2 #panel3 .estrela,
+#section-3 #panel3 .estrela {
   background-position: -153px 10px;
 }
-#section-2 #panel3 .planeta {
+#section-2 #panel3 .planeta,
+#section-3 #panel3 .planeta {
   background-position: -234px 10px;
 }
-#section-2 #panel3 .asteroide {
+#section-2 #panel3 .asteroide,
+#section-3 #panel3 .asteroide {
   background-position: -315px 10px;
 }
-#section-2 #panel3 .satelite-natural {
+#section-2 #panel3 .satelite-natural,
+#section-3 #panel3 .satelite-natural {
   background-position: -395px 10px;
 }
-#section-2 #panel3 .satelite-eclipse {
+#section-2 #panel3 .satelite-eclipse,
+#section-3 #panel3 .satelite-eclipse {
   background-position: -475px 10px;
 }
-#section-2 #panel3 .big-bang {
+#section-2 #panel3 .big-bang,
+#section-3 #panel3 .big-bang {
   background-position: -556px 10px;
 }
-#section-2 #panel3 .musica {
+#section-2 #panel3 .musica,
+#section-3 #panel3 .musica {
   background-position: -639px 10px;
 }
-#section-2 #panel3 .labirinto {
+#section-2 #panel3 .labirinto,
+#section-3 #panel3 .labirinto {
   background-position: -720px 10px;
 }
-#section-2 #panel3 .palavras-cruzadas {
+#section-2 #panel3 .palavras-cruzadas,
+#section-3 #panel3 .palavras-cruzadas {
   background-position: -800px 10px;
 }
-#section-2 #panel3 .charge {
+#section-2 #panel3 .charge,
+#section-3 #panel3 .charge {
   background-position: -885px 10px;
 }
-#section-2 #panel3 .planeta-terra {
+#section-2 #panel3 .planeta-terra,
+#section-3 #panel3 .planeta-terra {
   background-position: -234px 10px;
+}
+#section-3 {
+  background: url(../img/bg-slide-relevo.jpg);
 }
 #image-reel {
   position: absolute;
@@ -1010,79 +1042,6 @@ header a.ativo {
   color: white;
   padding: 10px 40px;
   opacity: 1;
-}
-#section-3 {
-  background: url(../img/bg-body-clima.jpg) no-repeat;
-  background-attachment: fixed;
-}
-#section-3 #panel-clima {
-  background: url(../img/bg-menu1.jpg) no-repeat;
-}
-#section-3 #panel-clima ul > li {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 63px;
-  height: 53px;
-  margin-left: 11px;
-  margin-top: 10px;
-}
-#section-3 #panel-clima ul a {
-  opacity: 0.5;
-}
-#section-3 #panel-clima ul a:hover {
-  opacity: 1;
-}
-#section-3 #panel-clima li.galaxia,
-#section-3 #panel-clima li.sistema,
-#section-3 #panel-clima li.estrela,
-#section-3 #panel-clima li.planeta,
-#section-3 #panel-clima li.asteroide,
-#section-3 #panel-clima li.satelite-natural,
-#section-3 #panel-clima li.satelite-eclipse,
-#section-3 #panel-clima li.big-bang,
-#section-3 #panel-clima li.musica,
-#section-3 #panel-clima li.labirinto,
-#section-3 #panel-clima li.palavras-cruzadas,
-#section-3 #panel-clima li.charge,
-#section-3 #panel-clima li.planeta-terra {
-  background: url(../img/icones-surgimento-universo.png) no-repeat 0 0;
-}
-#section-3 #panel-clima li.sistema {
-  background-position: -78px 0;
-}
-#section-3 #panel-clima li.estrela {
-  background-position: -166px 0;
-}
-#section-3 #panel-clima li.planeta {
-  background-position: -246px 0;
-}
-#section-3 #panel-clima li.asteroide {
-  background-position: -326px 0;
-}
-#section-3 #panel-clima li.satelite-natural {
-  background-position: -405px 0;
-}
-#section-3 #panel-clima li.satelite-eclipse {
-  background-position: -485px 0;
-}
-#section-3 #panel-clima li.big-bang {
-  background-position: -566px 0;
-}
-#section-3 #panel-clima li.musica {
-  background-position: -647px 0;
-}
-#section-3 #panel-clima li.labirinto {
-  background-position: -731px 0;
-}
-#section-3 #panel-clima li.palavras-cruzadas {
-  background-position: -7330px 0;
-}
-#section-3 #panel-clima li.charge {
-  background-position: -800px 0;
-}
-#section-3 #panel-clima li.planeta-terra {
-  background-position: -895px 0;
 }
 .box-modal {
   /* css de estrlas */
@@ -1252,4 +1211,69 @@ header a.ativo {
 }
 #cboxLoadedContent {
   height: 481px;
+}
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 799px;
+  height: 397px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+#slider ul li img {
+  width: 100%;
+  height: 100%;
+}
+a.control_prev,
+a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+a.control_prev:hover,
+a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  color: white;
+  width: 160px;
+  font-size: 18px;
 }
