@@ -4,7 +4,8 @@
 .pagination3,
 .pagination4,
 .pagination5,
-.pagination6
+.pagination6,
+.pagination7
 {
   position: absolute;
   bottom: 5px;
@@ -18,7 +19,8 @@
 .pagination3 a,
 .pagination4 a,
 .pagination5 a,
-.pagination6 a
+.pagination6 a,
+.pagination7 a
 {
   display: block;
   float: left;
@@ -34,7 +36,8 @@
 .pagination3 a:first-child,
 .pagination4 a:first-child,
 .pagination5 a:first-child,
-.pagination6 a:first-child
+.pagination6 a:first-child,
+.pagination7 a:first-child
 {
   border: none;
   border-radius: 2px 0 0 2px;
@@ -58,7 +61,8 @@
 .pagination3 input,
 .pagination4 input,
 .pagination5 input,
-.pagination6 input
+.pagination6 input,
+.pagination7 input
  {
   float: left;
   margin: 0;
@@ -79,7 +83,8 @@
 .gigantic.pagination3,
 .gigantic.pagination4,
 .gigantic.pagination5,
-.gigantic.pagination6
+.gigantic.pagination6,
+.gigantic.pagination7
  {
   margin: 0; }
 
@@ -89,7 +94,8 @@
 .gigantic.pagination3 a,
 .gigantic.pagination4 a,
 .gigantic.pagination5 a,
-.gigantic.pagination6 a
+.gigantic.pagination6 a,
+.gigantic.pagination7 a
 {
   height: 60px;
   width: 60px;
@@ -102,7 +108,8 @@
 .gigantic.pagination3 input,
 .gigantic.pagination4 input,
 .gigantic.pagination5 input,
-.gigantic.pagination6 input
+.gigantic.pagination6 input,
+.gigantic.pagination7 input
  {
   width: 160px;
   height: 60px;

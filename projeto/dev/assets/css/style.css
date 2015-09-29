@@ -191,8 +191,8 @@ __________________________________________________________________
   border-radius: 50% 50% 50% 50%;
 }
 .object {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   background-color: #FFF;
   position: absolute;
   -moz-border-radius: 50% 50% 50% 50%;
@@ -427,7 +427,8 @@ header {
 }
 header a.bt-menu,
 header a.bt-menu3,
-header a.bt-menu4 {
+header a.bt-menu4,
+header a.bt-menu5 {
   opacity: 0.3;
   background: url(../img/bt-menu.png) no-repeat 0 0;
   margin-top: -8px;
@@ -439,7 +440,8 @@ header a.bt-menu4 {
 }
 header a.bt-menu:hover,
 header a.bt-menu3:hover,
-header a.bt-menu4:hover {
+header a.bt-menu4:hover,
+header a.bt-menu5:hover {
   opacity: 0.7;
 }
 header a.ativo {
@@ -554,7 +556,8 @@ header a.ativo {
   height: 100%;
 }
 #panel3,
-#panel-clima {
+#panel-clima,
+#panel4 {
   height: 76px;
   width: 100%;
   display: none;
@@ -562,14 +565,16 @@ header a.ativo {
   z-index: 2;
 }
 #panel3 ul,
-#panel-clima ul {
+#panel-clima ul,
+#panel4 ul {
   list-style: none;
   margin: 0;
   display: inline-block;
   padding: 0px;
 }
 #panel3 ul > li,
-#panel-clima ul > li {
+#panel-clima ul > li,
+#panel4 ul > li {
   float: left;
   position: relative;
   cursor: pointer;
@@ -578,13 +583,15 @@ header a.ativo {
   background: #333333;
 }
 #panel3 ul > li a,
-#panel-clima ul > li a {
+#panel-clima ul > li a,
+#panel4 ul > li a {
   display: block;
   width: 100%;
   height: 100%;
 }
 #panel3 ul > li > ul,
-#panel-clima ul > li > ul {
+#panel-clima ul > li > ul,
+#panel4 ul > li > ul {
   padding: 0px;
   padding-top: 15px;
   position: absolute;
@@ -605,7 +612,8 @@ header a.ativo {
   -transition: opacity 0.2s;
 }
 #panel3 ul > li > ul > li,
-#panel-clima ul > li > ul > li {
+#panel-clima ul > li > ul > li,
+#panel4 ul > li > ul > li {
   text-align: center;
   border-top: 1px solid white;
   width: 140px;
@@ -615,71 +623,89 @@ header a.ativo {
   text-shadow: 1px -1px 10px #000000;
 }
 #panel3 ul > li > ul a,
-#panel-clima ul > li > ul a {
+#panel-clima ul > li > ul a,
+#panel4 ul > li > ul a {
   color: white;
 }
 #panel3 ul > li:nth-child(odd),
-#panel-clima ul > li:nth-child(odd) {
+#panel-clima ul > li:nth-child(odd),
+#panel4 ul > li:nth-child(odd) {
   opacity: 0.7;
 }
 #panel3 ul > li:nth-child(even),
-#panel-clima ul > li:nth-child(even) {
+#panel-clima ul > li:nth-child(even),
+#panel4 ul > li:nth-child(even) {
   opacity: 0.9;
 }
 #panel3 ul > li:hover ul,
-#panel-clima ul > li:hover ul {
+#panel-clima ul > li:hover ul,
+#panel4 ul > li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 #panel3 ul li.formacao-universo,
 #panel-clima ul li.formacao-universo,
+#panel4 ul li.formacao-universo,
 #panel3 ul li.relevo,
 #panel-clima ul li.relevo,
+#panel4 ul li.relevo,
 #panel3 ul li.climatologia,
 #panel-clima ul li.climatologia,
+#panel4 ul li.climatologia,
 #panel3 ul li.cartografia,
 #panel-clima ul li.cartografia,
+#panel4 ul li.cartografia,
 #panel3 ul li.estudos,
 #panel-clima ul li.estudos,
+#panel4 ul li.estudos,
 #panel3 ul li.apresentacao,
 #panel-clima ul li.apresentacao,
+#panel4 ul li.apresentacao,
 #panel3 ul li.divisoria,
-#panel-clima ul li.divisoria {
+#panel-clima ul li.divisoria,
+#panel4 ul li.divisoria {
   background: url(../img/icone-menu-principal.png) no-repeat 0 0;
 }
 #panel3 ul li.relevo,
-#panel-clima ul li.relevo {
+#panel-clima ul li.relevo,
+#panel4 ul li.relevo {
   background-position: -144px 0;
 }
 #panel3 ul li.climatologia,
-#panel-clima ul li.climatologia {
+#panel-clima ul li.climatologia,
+#panel4 ul li.climatologia {
   background-position: -292px 0;
   margin-left: 70px;
 }
 #panel3 ul li.cartografia,
-#panel-clima ul li.cartografia {
+#panel-clima ul li.cartografia,
+#panel4 ul li.cartografia {
   background-position: -448px 0;
   margin-left: 80px;
 }
 #panel3 ul li.estudos,
-#panel-clima ul li.estudos {
+#panel-clima ul li.estudos,
+#panel4 ul li.estudos {
   background-position: -602px 0;
   margin-left: 82px;
 }
 #panel3 ul li.divisoria,
-#panel-clima ul li.divisoria {
+#panel-clima ul li.divisoria,
+#panel4 ul li.divisoria {
   background-position: -686px 0;
   opacity: 1;
   margin-left: 12px;
 }
 #panel3 ul li.apresentacao,
-#panel-clima ul li.apresentacao {
+#panel-clima ul li.apresentacao,
+#panel4 ul li.apresentacao {
   background-position: -800px 0;
   margin-left: 42px;
 }
 #panel3 ul li.apresentacao a,
-#panel-clima ul li.apresentacao a {
+#panel-clima ul li.apresentacao a,
+#panel4 ul li.apresentacao a {
   display: block;
   width: 100%;
   height: 100%;
@@ -906,11 +932,15 @@ header a.ativo {
   background-attachment: fixed;
 }
 #section-2 #panel3,
-#section-3 #panel3 {
+#section-3 #panel3,
+#section-2 #panel4,
+#section-3 #panel4 {
   /*background: url(../img/bg-menu1.jpg) no-repeat;*/
 }
 #section-2 #panel3 ul > li,
-#section-3 #panel3 ul > li {
+#section-3 #panel3 ul > li,
+#section-2 #panel4 ul > li,
+#section-3 #panel4 ul > li {
   position: relative;
   cursor: pointer;
   -webkit-transition: height 0.2s;
@@ -918,86 +948,142 @@ header a.ativo {
   transition: height 0.2s;
 }
 #section-2 #panel3 ul > li:hover,
-#section-3 #panel3 ul > li:hover {
+#section-3 #panel3 ul > li:hover,
+#section-2 #panel4 ul > li:hover,
+#section-3 #panel4 ul > li:hover {
   height: 90px;
 }
 #section-2 #panel3 .galaxia,
 #section-3 #panel3 .galaxia,
+#section-2 #panel4 .galaxia,
+#section-3 #panel4 .galaxia,
 #section-2 #panel3 .sistema,
 #section-3 #panel3 .sistema,
+#section-2 #panel4 .sistema,
+#section-3 #panel4 .sistema,
 #section-2 #panel3 .estrela,
 #section-3 #panel3 .estrela,
+#section-2 #panel4 .estrela,
+#section-3 #panel4 .estrela,
 #section-2 #panel3 .planeta,
 #section-3 #panel3 .planeta,
+#section-2 #panel4 .planeta,
+#section-3 #panel4 .planeta,
 #section-2 #panel3 .asteroide,
 #section-3 #panel3 .asteroide,
+#section-2 #panel4 .asteroide,
+#section-3 #panel4 .asteroide,
 #section-2 #panel3 .satelite-natural,
 #section-3 #panel3 .satelite-natural,
+#section-2 #panel4 .satelite-natural,
+#section-3 #panel4 .satelite-natural,
 #section-2 #panel3 .satelite-eclipse,
 #section-3 #panel3 .satelite-eclipse,
+#section-2 #panel4 .satelite-eclipse,
+#section-3 #panel4 .satelite-eclipse,
 #section-2 #panel3 .big-bang,
 #section-3 #panel3 .big-bang,
+#section-2 #panel4 .big-bang,
+#section-3 #panel4 .big-bang,
 #section-2 #panel3 .musica,
 #section-3 #panel3 .musica,
+#section-2 #panel4 .musica,
+#section-3 #panel4 .musica,
 #section-2 #panel3 .labirinto,
 #section-3 #panel3 .labirinto,
+#section-2 #panel4 .labirinto,
+#section-3 #panel4 .labirinto,
 #section-2 #panel3 .palavras-cruzadas,
 #section-3 #panel3 .palavras-cruzadas,
+#section-2 #panel4 .palavras-cruzadas,
+#section-3 #panel4 .palavras-cruzadas,
 #section-2 #panel3 .charge,
 #section-3 #panel3 .charge,
+#section-2 #panel4 .charge,
+#section-3 #panel4 .charge,
 #section-2 #panel3 .planeta-terra,
-#section-3 #panel3 .planeta-terra {
+#section-3 #panel3 .planeta-terra,
+#section-2 #panel4 .planeta-terra,
+#section-3 #panel4 .planeta-terra {
   background: #333333 url(../img/icones-surgimento-universo.png) no-repeat 5px 10px;
   width: 100%;
   height: 100%;
 }
 #section-2 #panel3 .sistema,
-#section-3 #panel3 .sistema {
+#section-3 #panel3 .sistema,
+#section-2 #panel4 .sistema,
+#section-3 #panel4 .sistema {
   background-position: -72px 10px;
 }
 #section-2 #panel3 .estrela,
-#section-3 #panel3 .estrela {
+#section-3 #panel3 .estrela,
+#section-2 #panel4 .estrela,
+#section-3 #panel4 .estrela {
   background-position: -153px 10px;
 }
 #section-2 #panel3 .planeta,
-#section-3 #panel3 .planeta {
+#section-3 #panel3 .planeta,
+#section-2 #panel4 .planeta,
+#section-3 #panel4 .planeta {
   background-position: -234px 10px;
 }
 #section-2 #panel3 .asteroide,
-#section-3 #panel3 .asteroide {
+#section-3 #panel3 .asteroide,
+#section-2 #panel4 .asteroide,
+#section-3 #panel4 .asteroide {
   background-position: -315px 10px;
 }
 #section-2 #panel3 .satelite-natural,
-#section-3 #panel3 .satelite-natural {
+#section-3 #panel3 .satelite-natural,
+#section-2 #panel4 .satelite-natural,
+#section-3 #panel4 .satelite-natural {
   background-position: -395px 10px;
 }
 #section-2 #panel3 .satelite-eclipse,
-#section-3 #panel3 .satelite-eclipse {
+#section-3 #panel3 .satelite-eclipse,
+#section-2 #panel4 .satelite-eclipse,
+#section-3 #panel4 .satelite-eclipse {
   background-position: -475px 10px;
 }
 #section-2 #panel3 .big-bang,
-#section-3 #panel3 .big-bang {
+#section-3 #panel3 .big-bang,
+#section-2 #panel4 .big-bang,
+#section-3 #panel4 .big-bang {
   background-position: -556px 10px;
 }
 #section-2 #panel3 .musica,
-#section-3 #panel3 .musica {
+#section-3 #panel3 .musica,
+#section-2 #panel4 .musica,
+#section-3 #panel4 .musica {
   background-position: -639px 10px;
 }
 #section-2 #panel3 .labirinto,
-#section-3 #panel3 .labirinto {
+#section-3 #panel3 .labirinto,
+#section-2 #panel4 .labirinto,
+#section-3 #panel4 .labirinto {
   background-position: -720px 10px;
 }
 #section-2 #panel3 .palavras-cruzadas,
-#section-3 #panel3 .palavras-cruzadas {
+#section-3 #panel3 .palavras-cruzadas,
+#section-2 #panel4 .palavras-cruzadas,
+#section-3 #panel4 .palavras-cruzadas {
   background-position: -800px 10px;
 }
 #section-2 #panel3 .charge,
-#section-3 #panel3 .charge {
+#section-3 #panel3 .charge,
+#section-2 #panel4 .charge,
+#section-3 #panel4 .charge {
   background-position: -885px 10px;
 }
 #section-2 #panel3 .planeta-terra,
-#section-3 #panel3 .planeta-terra {
+#section-3 #panel3 .planeta-terra,
+#section-2 #panel4 .planeta-terra,
+#section-3 #panel4 .planeta-terra {
   background-position: -234px 10px;
+}
+#panel4 {
+  margin: auto;
+  width: 695px;
 }
 #section-3 {
   background: url(../img/bg-slide-relevo.jpg);
@@ -1209,39 +1295,80 @@ header a.ativo {
   margin-top: 82px;
   margin-left: 36px;
 }
+.desloc {
+  width: 63%;
+}
+.redu-desloc {
+  width: 33%;
+}
 #cboxLoadedContent {
   height: 481px;
 }
-#slider {
+#slider,
+#slider1,
+#slider2,
+#slider3 {
   position: relative;
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px;
 }
-#slider ul {
+#slider ul,
+#slider1 ul,
+#slider2 ul,
+#slider3 ul {
   position: relative;
   margin: 0;
   padding: 0;
   height: 200px;
   list-style: none;
 }
-#slider ul li {
+#slider ul li,
+#slider1 ul li,
+#slider2 ul li,
+#slider3 ul li {
   position: relative;
   display: block;
   float: left;
   margin: 0;
   padding: 0;
-  width: 799px;
-  height: 397px;
-  background: #ccc;
+  width: 599px;
+  height: 297px;
   text-align: center;
-  line-height: 300px;
 }
-#slider ul li img {
+#slider ul li img,
+#slider1 ul li img,
+#slider2 ul li img,
+#slider3 ul li img {
   width: 100%;
   height: 100%;
 }
-a.control_prev,
+#slider ul li div,
+#slider1 ul li div,
+#slider2 ul li div,
+#slider3 ul li div {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 12px;
+  color: white;
+}
+#slider2 ul li,
+#slider3 ul li {
+  width: 540px;
+}
+#slider a.control_prev,
+a.control_next,
+#slider1 a.control_prev,
+a.control_next,
+#slider2 a.control_prev,
+a.control_next,
+#slider3 a.control_prev,
 a.control_next {
   position: absolute;
   top: 40%;
@@ -1258,19 +1385,34 @@ a.control_next {
   opacity: 0.8;
   cursor: pointer;
 }
-a.control_prev:hover,
+#slider a.control_prev:hover,
+a.control_next:hover,
+#slider1 a.control_prev:hover,
+a.control_next:hover,
+#slider2 a.control_prev:hover,
+a.control_next:hover,
+#slider3 a.control_prev:hover,
 a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
 }
-a.control_prev {
+#slider a.control_prev,
+#slider1 a.control_prev,
+#slider2 a.control_prev,
+#slider3 a.control_prev {
   border-radius: 0 2px 2px 0;
 }
-a.control_next {
+#slider a.control_next,
+#slider1 a.control_next,
+#slider2 a.control_next,
+#slider3 a.control_next {
   right: 0;
   border-radius: 2px 0 0 2px;
 }
-.slider_option {
+#slider .slider_option,
+#slider1 .slider_option,
+#slider2 .slider_option,
+#slider3 .slider_option {
   position: relative;
   margin: 10px auto;
   color: white;
