@@ -1307,7 +1307,8 @@ header a.ativo {
 #slider,
 #slider1,
 #slider2,
-#slider3 {
+#slider3,
+#slider4 {
   position: relative;
   overflow: hidden;
   margin: 20px auto 0 auto;
@@ -1316,7 +1317,8 @@ header a.ativo {
 #slider ul,
 #slider1 ul,
 #slider2 ul,
-#slider3 ul {
+#slider3 ul,
+#slider4 ul {
   position: relative;
   margin: 0;
   padding: 0;
@@ -1326,7 +1328,8 @@ header a.ativo {
 #slider ul li,
 #slider1 ul li,
 #slider2 ul li,
-#slider3 ul li {
+#slider3 ul li,
+#slider4 ul li {
   position: relative;
   display: block;
   float: left;
@@ -1339,14 +1342,16 @@ header a.ativo {
 #slider ul li img,
 #slider1 ul li img,
 #slider2 ul li img,
-#slider3 ul li img {
+#slider3 ul li img,
+#slider4 ul li img {
   width: 100%;
   height: 100%;
 }
 #slider ul li div,
 #slider1 ul li div,
 #slider2 ul li div,
-#slider3 ul li div {
+#slider3 ul li div,
+#slider4 ul li div {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -1359,7 +1364,8 @@ header a.ativo {
   color: white;
 }
 #slider2 ul li,
-#slider3 ul li {
+#slider3 ul li,
+#slider4 ul li {
   width: 540px;
 }
 #slider a.control_prev,
@@ -1369,6 +1375,8 @@ a.control_next,
 #slider2 a.control_prev,
 a.control_next,
 #slider3 a.control_prev,
+a.control_next,
+#slider4 a.control_prev,
 a.control_next {
   position: absolute;
   top: 40%;
@@ -1392,6 +1400,8 @@ a.control_next:hover,
 #slider2 a.control_prev:hover,
 a.control_next:hover,
 #slider3 a.control_prev:hover,
+a.control_next:hover,
+#slider4 a.control_prev:hover,
 a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -1399,20 +1409,23 @@ a.control_next:hover {
 #slider a.control_prev,
 #slider1 a.control_prev,
 #slider2 a.control_prev,
-#slider3 a.control_prev {
+#slider3 a.control_prev,
+#slider4 a.control_prev {
   border-radius: 0 2px 2px 0;
 }
 #slider a.control_next,
 #slider1 a.control_next,
 #slider2 a.control_next,
-#slider3 a.control_next {
+#slider3 a.control_next,
+#slider4 a.control_next {
   right: 0;
   border-radius: 2px 0 0 2px;
 }
 #slider .slider_option,
 #slider1 .slider_option,
 #slider2 .slider_option,
-#slider3 .slider_option {
+#slider3 .slider_option,
+#slider4 .slider_option {
   position: relative;
   margin: 10px auto;
   color: white;
