@@ -281,7 +281,35 @@ body {
 }
 
 .aux-img-maker {
-  margin: auto;
+  margin:8px auto 0 auto;
   width: 800px;
   overflow: hidden;
+}
+
+.center-audios {
+  audio {
+    display: block;
+    margin: auto;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.table {
+  .bordered(white, white, white, white);
+  margin: 10px auto 10px auto;
+
+  tr , td {
+    .bordered(white, white, white, white);
+    text-align: center;
+  }
+
+}
+
+.print {
+  margin-left: 78%;
+  margin-top: 18px;
+  display: inline-block;
 }

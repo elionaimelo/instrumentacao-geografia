@@ -936,6 +936,7 @@ header a.ativo {
 #section-2 #panel4,
 #section-3 #panel4 {
   /*background: url(../img/bg-menu1.jpg) no-repeat;*/
+  /*formacao do universo*/
 }
 #section-2 #panel3 ul > li,
 #section-3 #panel3 ul > li,
@@ -1080,6 +1081,74 @@ header a.ativo {
 #section-2 #panel4 .planeta-terra,
 #section-3 #panel4 .planeta-terra {
   background-position: -234px 10px;
+}
+#section-2 #panel3 .endogeno,
+#section-3 #panel3 .endogeno,
+#section-2 #panel4 .endogeno,
+#section-3 #panel4 .endogeno,
+#section-2 #panel3 .exogeno,
+#section-3 #panel3 .exogeno,
+#section-2 #panel4 .exogeno,
+#section-3 #panel4 .exogeno,
+#section-2 #panel3 .rocha,
+#section-3 #panel3 .rocha,
+#section-2 #panel4 .rocha,
+#section-3 #panel4 .rocha,
+#section-2 #panel3 .intemperismo,
+#section-3 #panel3 .intemperismo,
+#section-2 #panel4 .intemperismo,
+#section-3 #panel4 .intemperismo,
+#section-2 #panel3 .formas-relevo,
+#section-3 #panel3 .formas-relevo,
+#section-2 #panel4 .formas-relevo,
+#section-3 #panel4 .formas-relevo,
+#section-2 #panel3 .bingo,
+#section-3 #panel3 .bingo,
+#section-2 #panel4 .bingo,
+#section-3 #panel4 .bingo,
+#section-2 #panel3 .maquete,
+#section-3 #panel3 .maquete,
+#section-2 #panel4 .maquete,
+#section-3 #panel4 .maquete {
+  background: #333333 url(../img/icones-relevo.png) no-repeat 5px 10px;
+  width: 100%;
+  height: 100%;
+}
+#section-2 #panel3 .exogeno,
+#section-3 #panel3 .exogeno,
+#section-2 #panel4 .exogeno,
+#section-3 #panel4 .exogeno {
+  background-position: -72px 10px;
+}
+#section-2 #panel3 .rocha,
+#section-3 #panel3 .rocha,
+#section-2 #panel4 .rocha,
+#section-3 #panel4 .rocha {
+  background-position: -153px 10px;
+}
+#section-2 #panel3 .intemperismo,
+#section-3 #panel3 .intemperismo,
+#section-2 #panel4 .intemperismo,
+#section-3 #panel4 .intemperismo {
+  background-position: -224px 10px;
+}
+#section-2 #panel3 .formas-relevo,
+#section-3 #panel3 .formas-relevo,
+#section-2 #panel4 .formas-relevo,
+#section-3 #panel4 .formas-relevo {
+  background-position: -296px 10px;
+}
+#section-2 #panel3 .bingo,
+#section-3 #panel3 .bingo,
+#section-2 #panel4 .bingo,
+#section-3 #panel4 .bingo {
+  background-position: -373px 10px;
+}
+#section-2 #panel3 .maquete,
+#section-3 #panel3 .maquete,
+#section-2 #panel4 .maquete,
+#section-3 #panel4 .maquete {
+  background-position: -452px 10px;
 }
 #panel4 {
   margin: auto;
@@ -1440,13 +1509,15 @@ header a.ativo {
 #slider4 ul li {
   width: 540px;
 }
-.pagination8 {
+.pagination8,
+.pagination9 {
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   left: 270px;
   display: inline-block;
 }
-.pagination8 a {
+.pagination8 a,
+.pagination9 a {
   display: block;
   float: left;
   width: 36px;
@@ -1454,11 +1525,13 @@ header a.ativo {
   outline: none;
   cursor: default;
 }
-.pagination8 a:last-child {
+.pagination8 a:last-child,
+.pagination9 a:last-child {
   border: none;
   border-radius: 0 2px 2px 0;
 }
-.pagination8 input {
+.pagination8 input,
+.pagination9 input {
   float: left;
   margin: 0;
   padding: 0;
@@ -1471,16 +1544,19 @@ header a.ativo {
   vertical-align: middle;
   text-align: center;
 }
-.gigantic.pagination8 {
+.gigantic.pagination8,
+.gigantic.pagination9 {
   margin: 0;
 }
-.gigantic.pagination8 a {
+.gigantic.pagination8 a,
+.gigantic.pagination9 a {
   height: 60px;
   width: 60px;
   font-size: 50px;
   line-height: 50px;
 }
-.gigantic.pagination8 input {
+.gigantic.pagination8 input,
+.gigantic.pagination9 input {
   width: 160px;
   height: 60px;
   font-size: 30px;
@@ -1494,7 +1570,35 @@ header a.ativo {
   overflow: hidden;
 }
 .aux-img-maker {
-  margin: auto;
+  margin: 8px auto 0 auto;
   width: 800px;
   overflow: hidden;
+}
+.center-audios audio {
+  display: block;
+  margin: auto;
+}
+.center-audios p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.table {
+  border-top: solid 1px #ffffff;
+  border-left: solid 1px #ffffff;
+  border-right: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  margin: 10px auto 10px auto;
+}
+.table tr,
+.table td {
+  border-top: solid 1px #ffffff;
+  border-left: solid 1px #ffffff;
+  border-right: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  text-align: center;
+}
+.print {
+  margin-left: 78%;
+  margin-top: 18px;
+  display: inline-block;
 }
