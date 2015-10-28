@@ -1130,13 +1130,15 @@ header a.ativo {
   opacity: 1;
 }
 .box-modal {
+  margin: 0px;
+  padding: 0px;
   /* css de estrlas */
   /* css estrelas */
 }
 .box-modal p,
 .box-modal h1 {
   color: white;
-  margin: 0px;
+  margin: -3px 0 0 0;
 }
 .box-modal a {
   color: #3a956b;
@@ -1489,5 +1491,10 @@ header a.ativo {
   color: white;
   line-height: 20px;
   min-height: 50px;
+  overflow: hidden;
+}
+.aux-img-maker {
+  margin: auto;
+  width: 800px;
   overflow: hidden;
 }
