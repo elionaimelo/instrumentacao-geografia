@@ -1510,14 +1510,16 @@ header a.ativo {
   width: 540px;
 }
 .pagination8,
-.pagination9 {
+.pagination9,
+.pagination10 {
   position: absolute;
   bottom: 0px;
   left: 270px;
   display: inline-block;
 }
 .pagination8 a,
-.pagination9 a {
+.pagination9 a,
+.pagination10 a {
   display: block;
   float: left;
   width: 36px;
@@ -1526,18 +1528,20 @@ header a.ativo {
   cursor: default;
 }
 .pagination8 a:last-child,
-.pagination9 a:last-child {
+.pagination9 a:last-child,
+.pagination10 a:last-child {
   border: none;
   border-radius: 0 2px 2px 0;
 }
 .pagination8 input,
-.pagination9 input {
+.pagination9 input,
+.pagination10 input {
   float: left;
   margin: 0;
   padding: 0;
   width: 60px;
   height: 20px;
-  background: black;
+  background: transparent;
   color: white;
   outline: none;
   border: none;
@@ -1545,18 +1549,21 @@ header a.ativo {
   text-align: center;
 }
 .gigantic.pagination8,
-.gigantic.pagination9 {
+.gigantic.pagination9,
+.gigantic.pagination10 {
   margin: 0;
 }
 .gigantic.pagination8 a,
-.gigantic.pagination9 a {
+.gigantic.pagination9 a,
+.gigantic.pagination10 a {
   height: 60px;
   width: 60px;
   font-size: 50px;
   line-height: 50px;
 }
 .gigantic.pagination8 input,
-.gigantic.pagination9 input {
+.gigantic.pagination9 input,
+.gigantic.pagination10 input {
   width: 160px;
   height: 60px;
   font-size: 30px;
@@ -1600,5 +1607,28 @@ header a.ativo {
 .print {
   margin-left: 78%;
   margin-top: 18px;
+  margin-bottom: 5px;
   display: inline-block;
+}
+.aux-scroll {
+  width: 100%;
+  height: 450px;
+  margin-top: 8px;
+  overflow: auto;
+}
+.align-center {
+  display: block;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.box-destaque {
+  background: #16a085;
+  padding: 10px 40px 21px 40px;
+  margin: 40px auto;
+  width: 90%;
+}
+ol li {
+  color: white;
 }
