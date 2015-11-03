@@ -927,21 +927,32 @@ header a.ativo {
   z-index: 100000;
 }
 #section-2,
-#section-3 {
+#section-3,
+#section-4 {
   background: url(../img/bg-slide-formacao-universo.jpg) no-repeat;
   background-attachment: fixed;
 }
 #section-2 #panel3,
 #section-3 #panel3,
+#section-4 #panel3,
 #section-2 #panel4,
-#section-3 #panel4 {
+#section-3 #panel4,
+#section-4 #panel4,
+#section-2 #panel-clima,
+#section-3 #panel-clima,
+#section-4 #panel-clima {
   /*background: url(../img/bg-menu1.jpg) no-repeat;*/
   /*formacao do universo*/
 }
 #section-2 #panel3 ul > li,
 #section-3 #panel3 ul > li,
+#section-4 #panel3 ul > li,
 #section-2 #panel4 ul > li,
-#section-3 #panel4 ul > li {
+#section-3 #panel4 ul > li,
+#section-4 #panel4 ul > li,
+#section-2 #panel-clima ul > li,
+#section-3 #panel-clima ul > li,
+#section-4 #panel-clima ul > li {
   position: relative;
   cursor: pointer;
   -webkit-transition: height 0.2s;
@@ -950,212 +961,547 @@ header a.ativo {
 }
 #section-2 #panel3 ul > li:hover,
 #section-3 #panel3 ul > li:hover,
+#section-4 #panel3 ul > li:hover,
 #section-2 #panel4 ul > li:hover,
-#section-3 #panel4 ul > li:hover {
+#section-3 #panel4 ul > li:hover,
+#section-4 #panel4 ul > li:hover,
+#section-2 #panel-clima ul > li:hover,
+#section-3 #panel-clima ul > li:hover,
+#section-4 #panel-clima ul > li:hover {
   height: 90px;
 }
 #section-2 #panel3 .galaxia,
 #section-3 #panel3 .galaxia,
+#section-4 #panel3 .galaxia,
 #section-2 #panel4 .galaxia,
 #section-3 #panel4 .galaxia,
+#section-4 #panel4 .galaxia,
+#section-2 #panel-clima .galaxia,
+#section-3 #panel-clima .galaxia,
+#section-4 #panel-clima .galaxia,
 #section-2 #panel3 .sistema,
 #section-3 #panel3 .sistema,
+#section-4 #panel3 .sistema,
 #section-2 #panel4 .sistema,
 #section-3 #panel4 .sistema,
+#section-4 #panel4 .sistema,
+#section-2 #panel-clima .sistema,
+#section-3 #panel-clima .sistema,
+#section-4 #panel-clima .sistema,
 #section-2 #panel3 .estrela,
 #section-3 #panel3 .estrela,
+#section-4 #panel3 .estrela,
 #section-2 #panel4 .estrela,
 #section-3 #panel4 .estrela,
+#section-4 #panel4 .estrela,
+#section-2 #panel-clima .estrela,
+#section-3 #panel-clima .estrela,
+#section-4 #panel-clima .estrela,
 #section-2 #panel3 .planeta,
 #section-3 #panel3 .planeta,
+#section-4 #panel3 .planeta,
 #section-2 #panel4 .planeta,
 #section-3 #panel4 .planeta,
+#section-4 #panel4 .planeta,
+#section-2 #panel-clima .planeta,
+#section-3 #panel-clima .planeta,
+#section-4 #panel-clima .planeta,
 #section-2 #panel3 .asteroide,
 #section-3 #panel3 .asteroide,
+#section-4 #panel3 .asteroide,
 #section-2 #panel4 .asteroide,
 #section-3 #panel4 .asteroide,
+#section-4 #panel4 .asteroide,
+#section-2 #panel-clima .asteroide,
+#section-3 #panel-clima .asteroide,
+#section-4 #panel-clima .asteroide,
 #section-2 #panel3 .satelite-natural,
 #section-3 #panel3 .satelite-natural,
+#section-4 #panel3 .satelite-natural,
 #section-2 #panel4 .satelite-natural,
 #section-3 #panel4 .satelite-natural,
+#section-4 #panel4 .satelite-natural,
+#section-2 #panel-clima .satelite-natural,
+#section-3 #panel-clima .satelite-natural,
+#section-4 #panel-clima .satelite-natural,
 #section-2 #panel3 .satelite-eclipse,
 #section-3 #panel3 .satelite-eclipse,
+#section-4 #panel3 .satelite-eclipse,
 #section-2 #panel4 .satelite-eclipse,
 #section-3 #panel4 .satelite-eclipse,
+#section-4 #panel4 .satelite-eclipse,
+#section-2 #panel-clima .satelite-eclipse,
+#section-3 #panel-clima .satelite-eclipse,
+#section-4 #panel-clima .satelite-eclipse,
 #section-2 #panel3 .big-bang,
 #section-3 #panel3 .big-bang,
+#section-4 #panel3 .big-bang,
 #section-2 #panel4 .big-bang,
 #section-3 #panel4 .big-bang,
+#section-4 #panel4 .big-bang,
+#section-2 #panel-clima .big-bang,
+#section-3 #panel-clima .big-bang,
+#section-4 #panel-clima .big-bang,
 #section-2 #panel3 .musica,
 #section-3 #panel3 .musica,
+#section-4 #panel3 .musica,
 #section-2 #panel4 .musica,
 #section-3 #panel4 .musica,
+#section-4 #panel4 .musica,
+#section-2 #panel-clima .musica,
+#section-3 #panel-clima .musica,
+#section-4 #panel-clima .musica,
 #section-2 #panel3 .labirinto,
 #section-3 #panel3 .labirinto,
+#section-4 #panel3 .labirinto,
 #section-2 #panel4 .labirinto,
 #section-3 #panel4 .labirinto,
+#section-4 #panel4 .labirinto,
+#section-2 #panel-clima .labirinto,
+#section-3 #panel-clima .labirinto,
+#section-4 #panel-clima .labirinto,
 #section-2 #panel3 .palavras-cruzadas,
 #section-3 #panel3 .palavras-cruzadas,
+#section-4 #panel3 .palavras-cruzadas,
 #section-2 #panel4 .palavras-cruzadas,
 #section-3 #panel4 .palavras-cruzadas,
+#section-4 #panel4 .palavras-cruzadas,
+#section-2 #panel-clima .palavras-cruzadas,
+#section-3 #panel-clima .palavras-cruzadas,
+#section-4 #panel-clima .palavras-cruzadas,
 #section-2 #panel3 .charge,
 #section-3 #panel3 .charge,
+#section-4 #panel3 .charge,
 #section-2 #panel4 .charge,
 #section-3 #panel4 .charge,
+#section-4 #panel4 .charge,
+#section-2 #panel-clima .charge,
+#section-3 #panel-clima .charge,
+#section-4 #panel-clima .charge,
 #section-2 #panel3 .planeta-terra,
 #section-3 #panel3 .planeta-terra,
+#section-4 #panel3 .planeta-terra,
 #section-2 #panel4 .planeta-terra,
-#section-3 #panel4 .planeta-terra {
+#section-3 #panel4 .planeta-terra,
+#section-4 #panel4 .planeta-terra,
+#section-2 #panel-clima .planeta-terra,
+#section-3 #panel-clima .planeta-terra,
+#section-4 #panel-clima .planeta-terra {
   background: #333333 url(../img/icones-surgimento-universo.png) no-repeat 5px 10px;
   width: 100%;
   height: 100%;
 }
 #section-2 #panel3 .sistema,
 #section-3 #panel3 .sistema,
+#section-4 #panel3 .sistema,
 #section-2 #panel4 .sistema,
-#section-3 #panel4 .sistema {
+#section-3 #panel4 .sistema,
+#section-4 #panel4 .sistema,
+#section-2 #panel-clima .sistema,
+#section-3 #panel-clima .sistema,
+#section-4 #panel-clima .sistema {
   background-position: -72px 10px;
 }
 #section-2 #panel3 .estrela,
 #section-3 #panel3 .estrela,
+#section-4 #panel3 .estrela,
 #section-2 #panel4 .estrela,
-#section-3 #panel4 .estrela {
+#section-3 #panel4 .estrela,
+#section-4 #panel4 .estrela,
+#section-2 #panel-clima .estrela,
+#section-3 #panel-clima .estrela,
+#section-4 #panel-clima .estrela {
   background-position: -153px 10px;
 }
 #section-2 #panel3 .planeta,
 #section-3 #panel3 .planeta,
+#section-4 #panel3 .planeta,
 #section-2 #panel4 .planeta,
-#section-3 #panel4 .planeta {
+#section-3 #panel4 .planeta,
+#section-4 #panel4 .planeta,
+#section-2 #panel-clima .planeta,
+#section-3 #panel-clima .planeta,
+#section-4 #panel-clima .planeta {
   background-position: -234px 10px;
 }
 #section-2 #panel3 .asteroide,
 #section-3 #panel3 .asteroide,
+#section-4 #panel3 .asteroide,
 #section-2 #panel4 .asteroide,
-#section-3 #panel4 .asteroide {
+#section-3 #panel4 .asteroide,
+#section-4 #panel4 .asteroide,
+#section-2 #panel-clima .asteroide,
+#section-3 #panel-clima .asteroide,
+#section-4 #panel-clima .asteroide {
   background-position: -315px 10px;
 }
 #section-2 #panel3 .satelite-natural,
 #section-3 #panel3 .satelite-natural,
+#section-4 #panel3 .satelite-natural,
 #section-2 #panel4 .satelite-natural,
-#section-3 #panel4 .satelite-natural {
+#section-3 #panel4 .satelite-natural,
+#section-4 #panel4 .satelite-natural,
+#section-2 #panel-clima .satelite-natural,
+#section-3 #panel-clima .satelite-natural,
+#section-4 #panel-clima .satelite-natural {
   background-position: -395px 10px;
 }
 #section-2 #panel3 .satelite-eclipse,
 #section-3 #panel3 .satelite-eclipse,
+#section-4 #panel3 .satelite-eclipse,
 #section-2 #panel4 .satelite-eclipse,
-#section-3 #panel4 .satelite-eclipse {
+#section-3 #panel4 .satelite-eclipse,
+#section-4 #panel4 .satelite-eclipse,
+#section-2 #panel-clima .satelite-eclipse,
+#section-3 #panel-clima .satelite-eclipse,
+#section-4 #panel-clima .satelite-eclipse {
   background-position: -475px 10px;
 }
 #section-2 #panel3 .big-bang,
 #section-3 #panel3 .big-bang,
+#section-4 #panel3 .big-bang,
 #section-2 #panel4 .big-bang,
-#section-3 #panel4 .big-bang {
+#section-3 #panel4 .big-bang,
+#section-4 #panel4 .big-bang,
+#section-2 #panel-clima .big-bang,
+#section-3 #panel-clima .big-bang,
+#section-4 #panel-clima .big-bang {
   background-position: -556px 10px;
 }
 #section-2 #panel3 .musica,
 #section-3 #panel3 .musica,
+#section-4 #panel3 .musica,
 #section-2 #panel4 .musica,
-#section-3 #panel4 .musica {
+#section-3 #panel4 .musica,
+#section-4 #panel4 .musica,
+#section-2 #panel-clima .musica,
+#section-3 #panel-clima .musica,
+#section-4 #panel-clima .musica {
   background-position: -639px 10px;
 }
 #section-2 #panel3 .labirinto,
 #section-3 #panel3 .labirinto,
+#section-4 #panel3 .labirinto,
 #section-2 #panel4 .labirinto,
-#section-3 #panel4 .labirinto {
+#section-3 #panel4 .labirinto,
+#section-4 #panel4 .labirinto,
+#section-2 #panel-clima .labirinto,
+#section-3 #panel-clima .labirinto,
+#section-4 #panel-clima .labirinto {
   background-position: -720px 10px;
 }
 #section-2 #panel3 .palavras-cruzadas,
 #section-3 #panel3 .palavras-cruzadas,
+#section-4 #panel3 .palavras-cruzadas,
 #section-2 #panel4 .palavras-cruzadas,
-#section-3 #panel4 .palavras-cruzadas {
+#section-3 #panel4 .palavras-cruzadas,
+#section-4 #panel4 .palavras-cruzadas,
+#section-2 #panel-clima .palavras-cruzadas,
+#section-3 #panel-clima .palavras-cruzadas,
+#section-4 #panel-clima .palavras-cruzadas {
   background-position: -800px 10px;
 }
 #section-2 #panel3 .charge,
 #section-3 #panel3 .charge,
+#section-4 #panel3 .charge,
 #section-2 #panel4 .charge,
-#section-3 #panel4 .charge {
+#section-3 #panel4 .charge,
+#section-4 #panel4 .charge,
+#section-2 #panel-clima .charge,
+#section-3 #panel-clima .charge,
+#section-4 #panel-clima .charge {
   background-position: -885px 10px;
 }
 #section-2 #panel3 .planeta-terra,
 #section-3 #panel3 .planeta-terra,
+#section-4 #panel3 .planeta-terra,
 #section-2 #panel4 .planeta-terra,
-#section-3 #panel4 .planeta-terra {
-  background-position: -234px 10px;
+#section-3 #panel4 .planeta-terra,
+#section-4 #panel4 .planeta-terra,
+#section-2 #panel-clima .planeta-terra,
+#section-3 #panel-clima .planeta-terra,
+#section-4 #panel-clima .planeta-terra {
+  background-position: -956px 10px;
 }
 #section-2 #panel3 .endogeno,
 #section-3 #panel3 .endogeno,
+#section-4 #panel3 .endogeno,
 #section-2 #panel4 .endogeno,
 #section-3 #panel4 .endogeno,
+#section-4 #panel4 .endogeno,
+#section-2 #panel-clima .endogeno,
+#section-3 #panel-clima .endogeno,
+#section-4 #panel-clima .endogeno,
 #section-2 #panel3 .exogeno,
 #section-3 #panel3 .exogeno,
+#section-4 #panel3 .exogeno,
 #section-2 #panel4 .exogeno,
 #section-3 #panel4 .exogeno,
+#section-4 #panel4 .exogeno,
+#section-2 #panel-clima .exogeno,
+#section-3 #panel-clima .exogeno,
+#section-4 #panel-clima .exogeno,
 #section-2 #panel3 .rocha,
 #section-3 #panel3 .rocha,
+#section-4 #panel3 .rocha,
 #section-2 #panel4 .rocha,
 #section-3 #panel4 .rocha,
+#section-4 #panel4 .rocha,
+#section-2 #panel-clima .rocha,
+#section-3 #panel-clima .rocha,
+#section-4 #panel-clima .rocha,
 #section-2 #panel3 .intemperismo,
 #section-3 #panel3 .intemperismo,
+#section-4 #panel3 .intemperismo,
 #section-2 #panel4 .intemperismo,
 #section-3 #panel4 .intemperismo,
+#section-4 #panel4 .intemperismo,
+#section-2 #panel-clima .intemperismo,
+#section-3 #panel-clima .intemperismo,
+#section-4 #panel-clima .intemperismo,
 #section-2 #panel3 .formas-relevo,
 #section-3 #panel3 .formas-relevo,
+#section-4 #panel3 .formas-relevo,
 #section-2 #panel4 .formas-relevo,
 #section-3 #panel4 .formas-relevo,
+#section-4 #panel4 .formas-relevo,
+#section-2 #panel-clima .formas-relevo,
+#section-3 #panel-clima .formas-relevo,
+#section-4 #panel-clima .formas-relevo,
 #section-2 #panel3 .bingo,
 #section-3 #panel3 .bingo,
+#section-4 #panel3 .bingo,
 #section-2 #panel4 .bingo,
 #section-3 #panel4 .bingo,
+#section-4 #panel4 .bingo,
+#section-2 #panel-clima .bingo,
+#section-3 #panel-clima .bingo,
+#section-4 #panel-clima .bingo,
 #section-2 #panel3 .maquete,
 #section-3 #panel3 .maquete,
+#section-4 #panel3 .maquete,
 #section-2 #panel4 .maquete,
-#section-3 #panel4 .maquete {
+#section-3 #panel4 .maquete,
+#section-4 #panel4 .maquete,
+#section-2 #panel-clima .maquete,
+#section-3 #panel-clima .maquete,
+#section-4 #panel-clima .maquete {
   background: #333333 url(../img/icones-relevo.png) no-repeat 5px 10px;
   width: 100%;
   height: 100%;
 }
 #section-2 #panel3 .exogeno,
 #section-3 #panel3 .exogeno,
+#section-4 #panel3 .exogeno,
 #section-2 #panel4 .exogeno,
-#section-3 #panel4 .exogeno {
+#section-3 #panel4 .exogeno,
+#section-4 #panel4 .exogeno,
+#section-2 #panel-clima .exogeno,
+#section-3 #panel-clima .exogeno,
+#section-4 #panel-clima .exogeno {
   background-position: -72px 10px;
 }
 #section-2 #panel3 .rocha,
 #section-3 #panel3 .rocha,
+#section-4 #panel3 .rocha,
 #section-2 #panel4 .rocha,
-#section-3 #panel4 .rocha {
+#section-3 #panel4 .rocha,
+#section-4 #panel4 .rocha,
+#section-2 #panel-clima .rocha,
+#section-3 #panel-clima .rocha,
+#section-4 #panel-clima .rocha {
   background-position: -153px 10px;
 }
 #section-2 #panel3 .intemperismo,
 #section-3 #panel3 .intemperismo,
+#section-4 #panel3 .intemperismo,
 #section-2 #panel4 .intemperismo,
-#section-3 #panel4 .intemperismo {
+#section-3 #panel4 .intemperismo,
+#section-4 #panel4 .intemperismo,
+#section-2 #panel-clima .intemperismo,
+#section-3 #panel-clima .intemperismo,
+#section-4 #panel-clima .intemperismo {
   background-position: -224px 10px;
 }
 #section-2 #panel3 .formas-relevo,
 #section-3 #panel3 .formas-relevo,
+#section-4 #panel3 .formas-relevo,
 #section-2 #panel4 .formas-relevo,
-#section-3 #panel4 .formas-relevo {
+#section-3 #panel4 .formas-relevo,
+#section-4 #panel4 .formas-relevo,
+#section-2 #panel-clima .formas-relevo,
+#section-3 #panel-clima .formas-relevo,
+#section-4 #panel-clima .formas-relevo {
   background-position: -296px 10px;
 }
 #section-2 #panel3 .bingo,
 #section-3 #panel3 .bingo,
+#section-4 #panel3 .bingo,
 #section-2 #panel4 .bingo,
-#section-3 #panel4 .bingo {
+#section-3 #panel4 .bingo,
+#section-4 #panel4 .bingo,
+#section-2 #panel-clima .bingo,
+#section-3 #panel-clima .bingo,
+#section-4 #panel-clima .bingo {
   background-position: -373px 10px;
 }
 #section-2 #panel3 .maquete,
 #section-3 #panel3 .maquete,
+#section-4 #panel3 .maquete,
 #section-2 #panel4 .maquete,
-#section-3 #panel4 .maquete {
+#section-3 #panel4 .maquete,
+#section-4 #panel4 .maquete,
+#section-2 #panel-clima .maquete,
+#section-3 #panel-clima .maquete,
+#section-4 #panel-clima .maquete {
   background-position: -452px 10px;
+}
+#section-2 #panel3 .dinamica,
+#section-3 #panel3 .dinamica,
+#section-4 #panel3 .dinamica,
+#section-2 #panel4 .dinamica,
+#section-3 #panel4 .dinamica,
+#section-4 #panel4 .dinamica,
+#section-2 #panel-clima .dinamica,
+#section-3 #panel-clima .dinamica,
+#section-4 #panel-clima .dinamica,
+#section-2 #panel3 .aquecimento,
+#section-3 #panel3 .aquecimento,
+#section-4 #panel3 .aquecimento,
+#section-2 #panel4 .aquecimento,
+#section-3 #panel4 .aquecimento,
+#section-4 #panel4 .aquecimento,
+#section-2 #panel-clima .aquecimento,
+#section-3 #panel-clima .aquecimento,
+#section-4 #panel-clima .aquecimento,
+#section-2 #panel3 .fenomenos,
+#section-3 #panel3 .fenomenos,
+#section-4 #panel3 .fenomenos,
+#section-2 #panel4 .fenomenos,
+#section-3 #panel4 .fenomenos,
+#section-4 #panel4 .fenomenos,
+#section-2 #panel-clima .fenomenos,
+#section-3 #panel-clima .fenomenos,
+#section-4 #panel-clima .fenomenos,
+#section-2 #panel3 .consequencia,
+#section-3 #panel3 .consequencia,
+#section-4 #panel3 .consequencia,
+#section-2 #panel4 .consequencia,
+#section-3 #panel4 .consequencia,
+#section-4 #panel4 .consequencia,
+#section-2 #panel-clima .consequencia,
+#section-3 #panel-clima .consequencia,
+#section-4 #panel-clima .consequencia,
+#section-2 #panel3 .pesquisa,
+#section-3 #panel3 .pesquisa,
+#section-4 #panel3 .pesquisa,
+#section-2 #panel4 .pesquisa,
+#section-3 #panel4 .pesquisa,
+#section-4 #panel4 .pesquisa,
+#section-2 #panel-clima .pesquisa,
+#section-3 #panel-clima .pesquisa,
+#section-4 #panel-clima .pesquisa,
+#section-2 #panel3 .debate,
+#section-3 #panel3 .debate,
+#section-4 #panel3 .debate,
+#section-2 #panel4 .debate,
+#section-3 #panel4 .debate,
+#section-4 #panel4 .debate,
+#section-2 #panel-clima .debate,
+#section-3 #panel-clima .debate,
+#section-4 #panel-clima .debate,
+#section-2 #panel3 .filme,
+#section-3 #panel3 .filme,
+#section-4 #panel3 .filme,
+#section-2 #panel4 .filme,
+#section-3 #panel4 .filme,
+#section-4 #panel4 .filme,
+#section-2 #panel-clima .filme,
+#section-3 #panel-clima .filme,
+#section-4 #panel-clima .filme {
+  background: #333333 url(../img/icones-clima.png) no-repeat 16px 10px;
+  width: 100%;
+  height: 100%;
+}
+#section-2 #panel3 .aquecimento,
+#section-3 #panel3 .aquecimento,
+#section-4 #panel3 .aquecimento,
+#section-2 #panel4 .aquecimento,
+#section-3 #panel4 .aquecimento,
+#section-4 #panel4 .aquecimento,
+#section-2 #panel-clima .aquecimento,
+#section-3 #panel-clima .aquecimento,
+#section-4 #panel-clima .aquecimento {
+  background-position: -56px 10px;
+}
+#section-2 #panel3 .fenomenos,
+#section-3 #panel3 .fenomenos,
+#section-4 #panel3 .fenomenos,
+#section-2 #panel4 .fenomenos,
+#section-3 #panel4 .fenomenos,
+#section-4 #panel4 .fenomenos,
+#section-2 #panel-clima .fenomenos,
+#section-3 #panel-clima .fenomenos,
+#section-4 #panel-clima .fenomenos {
+  background-position: -123px 10px;
+}
+#section-2 #panel3 .consequencia,
+#section-3 #panel3 .consequencia,
+#section-4 #panel3 .consequencia,
+#section-2 #panel4 .consequencia,
+#section-3 #panel4 .consequencia,
+#section-4 #panel4 .consequencia,
+#section-2 #panel-clima .consequencia,
+#section-3 #panel-clima .consequencia,
+#section-4 #panel-clima .consequencia {
+  background-position: -204px 10px;
+}
+#section-2 #panel3 .pesquisa,
+#section-3 #panel3 .pesquisa,
+#section-4 #panel3 .pesquisa,
+#section-2 #panel4 .pesquisa,
+#section-3 #panel4 .pesquisa,
+#section-4 #panel4 .pesquisa,
+#section-2 #panel-clima .pesquisa,
+#section-3 #panel-clima .pesquisa,
+#section-4 #panel-clima .pesquisa {
+  background-position: -279px 10px;
+}
+#section-2 #panel3 .debate,
+#section-3 #panel3 .debate,
+#section-4 #panel3 .debate,
+#section-2 #panel4 .debate,
+#section-3 #panel4 .debate,
+#section-4 #panel4 .debate,
+#section-2 #panel-clima .debate,
+#section-3 #panel-clima .debate,
+#section-4 #panel-clima .debate {
+  background-position: -355px 10px;
+}
+#section-2 #panel3 .filme,
+#section-3 #panel3 .filme,
+#section-4 #panel3 .filme,
+#section-2 #panel4 .filme,
+#section-3 #panel4 .filme,
+#section-4 #panel4 .filme,
+#section-2 #panel-clima .filme,
+#section-3 #panel-clima .filme,
+#section-4 #panel-clima .filme {
+  background-position: -429px 10px;
 }
 #panel4 {
   margin: auto;
   width: 695px;
 }
+#panel-clima {
+  margin: auto;
+  width: 620px;
+}
 #section-3 {
   background: url(../img/bg-slide-relevo.jpg);
+}
+#section-4 {
+  background: url(../img/bg-body-clima.jpg);
 }
 #image-reel {
   position: absolute;
@@ -1512,7 +1858,8 @@ header a.ativo {
 .pagination8,
 .pagination9,
 .pagination10,
-.pagination11 {
+.pagination11,
+.pagination12 {
   position: absolute;
   bottom: 0px;
   left: 270px;
@@ -1521,7 +1868,8 @@ header a.ativo {
 .pagination8 a,
 .pagination9 a,
 .pagination10 a,
-.pagination11 a {
+.pagination11 a,
+.pagination12 a {
   display: block;
   float: left;
   width: 36px;
@@ -1532,14 +1880,16 @@ header a.ativo {
 .pagination8 a:last-child,
 .pagination9 a:last-child,
 .pagination10 a:last-child,
-.pagination11 a:last-child {
+.pagination11 a:last-child,
+.pagination12 a:last-child {
   border: none;
   border-radius: 0 2px 2px 0;
 }
 .pagination8 input,
 .pagination9 input,
 .pagination10 input,
-.pagination11 input {
+.pagination11 input,
+.pagination12 input {
   float: left;
   margin: 0;
   padding: 0;
@@ -1555,13 +1905,15 @@ header a.ativo {
 .gigantic.pagination8,
 .gigantic.pagination9,
 .gigantic.pagination10,
-.gigantic.pagination11 {
+.gigantic.pagination11,
+.gigantic.pagination12 {
   margin: 0;
 }
 .gigantic.pagination8 a,
 .gigantic.pagination9 a,
 .gigantic.pagination10 a,
-.gigantic.pagination11 a {
+.gigantic.pagination11 a,
+.gigantic.pagination12 a {
   height: 60px;
   width: 60px;
   font-size: 50px;
@@ -1570,7 +1922,8 @@ header a.ativo {
 .gigantic.pagination8 input,
 .gigantic.pagination9 input,
 .gigantic.pagination10 input,
-.gigantic.pagination11 input {
+.gigantic.pagination11 input,
+.gigantic.pagination12 input {
   width: 160px;
   height: 60px;
   font-size: 30px;

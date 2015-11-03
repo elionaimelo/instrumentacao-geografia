@@ -20,13 +20,13 @@
 
         <!-- Animação em css -->
         <link rel="stylesheet" href="assets/css/animate.min.css">
-        
+
         <!-- hover em css -->
         <link href="assets/css/hover.css" rel="stylesheet" media="all">
-        
+
         <!-- fonte customizada -->
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-        
+
         <!-- css do tooltip -->
         <link rel="stylesheet" type="text/css" href="assets/css/tooltipster.css" />
 
@@ -37,27 +37,27 @@
         <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
         <script src="assets/js/scripts.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>
-        
+
         <!-- slide/pagination -->
         <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="assets/js/slick/slick.min.js"></script>
-        
+
         <!-- Animação no scroll -->
         <script src="assets/js/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>
-        
+
         <!-- tooltip -->
         <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>
-        
+
         <!-- efeitos no scroll -->
         <script src="assets/js/scrollmagic-anchornav.js"></script>
 
 
         <!-- scroll image -->
         <script src="assets/js/jquery.reel-min.js"></script>
-        
+
         <!-- scroll image -->
         <link rel="stylesheet" href="assets/js/vendor/colorbox/colorbox.css" />
         <script src="assets/js/vendor/colorbox/jquery.colorbox-min.js"></script>
@@ -65,15 +65,31 @@
 
         <!-- videoBG -->
         <script src="http://syddev.com/jquery.videoBG/jquery.videoBG.js"></script>
-     
+
 
 
 
     </head>
-    <body class="wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.5s">
+    <body>
+
+      <div id="loading">
+        <div id="loading-center">
+        <div id="loading-center-absolute">
+        <div class="object" id="object_one"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_five"></div>
+        <div class="object" id="object_six"></div>
+        <div class="object" id="object_seven"></div>
+        <div class="object" id="object_eight"></div>
+
+        </div>
+        </div>
+    </div>
 
 
-        <section class="full-screen blue" id="section-3">
+        <section class="full-screen blue" id="section-4">
           <div>
 
                  <header>
@@ -81,93 +97,78 @@
                           <!-- conteudo -->
 
                           <ul>
-                            <li class="galaxia tooltip" title="Galáxia">
-                              <a class='inline' href="#inline_content">
-                                
-                                
-                              </a>
+                              <li class="tooltip" title="Dinâmica atmosférica">
+                                <a class='inline' href="#dinamica">
+                                  <div class="dinamica">
 
-                                      <!-- Conteudo da chamada -->
-                                      <div style='display:none'>
-                                        <div id='inline_content' style='padding:10px; background:#fff;'>
-                                        <p><strong>This content comes from a hidden element on this page.</strong></p>
-                                        <p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
-                                        <p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
-                                        
-                                        <p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
-                                        <p>Updating Content Example:<br />
-                                        <a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
-                                        </div>
-                                      </div>
+                                  </div>
+                                </a>
 
+                              </li>
+                              <li class="tooltip" title="Aquecimento global">
+                                <a class='inline' href="#aquecimento">
+                                  <div class="aquecimento">
 
-                            </li>
-                            <li class="sistema tooltip" title="Sistema">
-                              
-                            </li>
-                            <li class="estrela tooltip" title="Estrela">
-                              
-                            </li>
-                            <li class="planeta tooltip" title="Planeta">
-                              
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="tooltip" title="Fenômenos climáticos">
+                                <a class='inline' href="#fenomenos">
+                                  <div class="fenomenos">
 
-                            </li>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="tooltip" title="Consequências">
+                                <a class='inline' href="#consequencia">
+                                  <div class="consequencia">
 
-                            <li class="asteroide tooltip" title="Asteróide/Meteoro/Cometa">
-                              
+                                  </div>
+                                </a>
 
-                            </li>
+                              </li>
 
-                            <li class="satelite-natural tooltip" title="Satélite Natural">
-                              
+                              <li class="tooltip" title="Pesquisa: tornado de fogo">
+                                <a class='inline' href="#pesquisa">
+                                  <div class="pesquisa">
 
-                            </li>
+                                  </div>
+                                </a>
+                              </li>
 
-                            <li class="satelite-eclipse tooltip" title="Satélite com eclipse/aurora">
-                              
+                              <li class="tooltip" title="Debate">
+                                <a class='inline' href="#debate">
+                                  <div class="debate">
 
-                            </li>
+                                  </div>
+                                </a>
+                              </li>
 
-                            <li class="big-bang tooltip" title="Big bang">
-                              
+                              <li class="tooltip" title="Filme">
+                                <a class='inline' href="#filme">
+                                  <div class="filme">
 
-                            </li>
+                                  </div>
+                                </a>
+                              </li>
 
-                            <li class="musica tooltip" title="Música">
-                              
+                              <li class="tooltip" title="Charge">
+                                <a class='inline' href="#charge">
+                                  <div class="charge">
 
-                            </li>
+                                  </div>
+                                </a>
+                              </li>
 
-                            <li class="labirinto tooltip" title="Labirinto">
-                              
+                            </ul>
 
-                            </li>
-
-                            <li class="palavras-cruzadas tooltip" title="Palavras Cruzadas">
-                              
-
-                            </li>
-
-                            <li class="charge tooltip" title="Charge">
-                              
-
-                            </li>
-
-                            <li class="planeta-terra tooltip" title="Planeta Terra">
-                              
-
-                            </li>
-                            
-
-                          </ul>
-                          
                       </div>
 
 
 
-                     
+
                         <a href="#" class="bt-menu4">
-                          
+
                         </a>
                </header>
 
@@ -175,13 +176,13 @@
                <div class="top-titulo">
                   <h1>Clima</h1>
                </div>
-                      
+
 
           </div>
         </section>
 
-         
-       
+
+
 
 
 
