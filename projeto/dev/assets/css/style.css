@@ -1511,7 +1511,8 @@ header a.ativo {
 }
 .pagination8,
 .pagination9,
-.pagination10 {
+.pagination10,
+.pagination11 {
   position: absolute;
   bottom: 0px;
   left: 270px;
@@ -1519,7 +1520,8 @@ header a.ativo {
 }
 .pagination8 a,
 .pagination9 a,
-.pagination10 a {
+.pagination10 a,
+.pagination11 a {
   display: block;
   float: left;
   width: 36px;
@@ -1529,13 +1531,15 @@ header a.ativo {
 }
 .pagination8 a:last-child,
 .pagination9 a:last-child,
-.pagination10 a:last-child {
+.pagination10 a:last-child,
+.pagination11 a:last-child {
   border: none;
   border-radius: 0 2px 2px 0;
 }
 .pagination8 input,
 .pagination9 input,
-.pagination10 input {
+.pagination10 input,
+.pagination11 input {
   float: left;
   margin: 0;
   padding: 0;
@@ -1550,12 +1554,14 @@ header a.ativo {
 }
 .gigantic.pagination8,
 .gigantic.pagination9,
-.gigantic.pagination10 {
+.gigantic.pagination10,
+.gigantic.pagination11 {
   margin: 0;
 }
 .gigantic.pagination8 a,
 .gigantic.pagination9 a,
-.gigantic.pagination10 a {
+.gigantic.pagination10 a,
+.gigantic.pagination11 a {
   height: 60px;
   width: 60px;
   font-size: 50px;
@@ -1563,7 +1569,8 @@ header a.ativo {
 }
 .gigantic.pagination8 input,
 .gigantic.pagination9 input,
-.gigantic.pagination10 input {
+.gigantic.pagination10 input,
+.gigantic.pagination11 input {
   width: 160px;
   height: 60px;
   font-size: 30px;
