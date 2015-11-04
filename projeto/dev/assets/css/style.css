@@ -1591,6 +1591,9 @@ header a.ativo {
   display: block;
   width: 425px;
 }
+.box-modal #video1 {
+  width: 355px;
+}
 .box-modal .legenda {
   text-align: center;
   font-size: 12px;
@@ -1859,7 +1862,8 @@ header a.ativo {
 .pagination9,
 .pagination10,
 .pagination11,
-.pagination12 {
+.pagination12,
+.pagination13 {
   position: absolute;
   bottom: 0px;
   left: 270px;
@@ -1869,7 +1873,8 @@ header a.ativo {
 .pagination9 a,
 .pagination10 a,
 .pagination11 a,
-.pagination12 a {
+.pagination12 a,
+.pagination13 a {
   display: block;
   float: left;
   width: 36px;
@@ -1881,7 +1886,8 @@ header a.ativo {
 .pagination9 a:last-child,
 .pagination10 a:last-child,
 .pagination11 a:last-child,
-.pagination12 a:last-child {
+.pagination12 a:last-child,
+.pagination13 a:last-child {
   border: none;
   border-radius: 0 2px 2px 0;
 }
@@ -1889,7 +1895,8 @@ header a.ativo {
 .pagination9 input,
 .pagination10 input,
 .pagination11 input,
-.pagination12 input {
+.pagination12 input,
+.pagination13 input {
   float: left;
   margin: 0;
   padding: 0;
@@ -1906,14 +1913,16 @@ header a.ativo {
 .gigantic.pagination9,
 .gigantic.pagination10,
 .gigantic.pagination11,
-.gigantic.pagination12 {
+.gigantic.pagination12,
+.gigantic.pagination13 {
   margin: 0;
 }
 .gigantic.pagination8 a,
 .gigantic.pagination9 a,
 .gigantic.pagination10 a,
 .gigantic.pagination11 a,
-.gigantic.pagination12 a {
+.gigantic.pagination12 a,
+.gigantic.pagination13 a {
   height: 60px;
   width: 60px;
   font-size: 50px;
@@ -1923,7 +1932,8 @@ header a.ativo {
 .gigantic.pagination9 input,
 .gigantic.pagination10 input,
 .gigantic.pagination11 input,
-.gigantic.pagination12 input {
+.gigantic.pagination12 input,
+.gigantic.pagination13 input {
   width: 160px;
   height: 60px;
   font-size: 30px;
